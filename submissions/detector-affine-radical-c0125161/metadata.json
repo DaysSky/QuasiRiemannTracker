@@ -1,0 +1,41 @@
+{
+  "title": "Affine detector count on the radical-asymmetric construction",
+  "authors": [
+    {
+      "name": "DaysSky",
+      "url": "https://github.com/DaysSky"
+    }
+  ],
+  "description": "Combines two independent refinements of Hailey Collet's Cycle61. timbalud's radical-asymmetric-count-20261014 (marked high-zero counting with coupled radical allocation) raises the affine constant of Cycle61's initial affine moment (Theorem 2.2) to B = B0 + 7/10000. DaysSky's detector-affine-c0125154 applies that affine moment inside the detector's per-fiber count, with plain capacity (B-2m)/Λ. Here the detector count uses timbalud's larger B. On the region δ ∈ [89/200, 49/100], p ∈ [199/400, 1/2], it is the κ-independent closed form R_New. Together the two give θ = 8748389/10000000 with h = 7951/10000 and d₋ = h - 1/1000. The proof is timbalud's source tree, with the detector-affine modules ported onto it. Every endpoint row, region and scalar check is regenerated at the new endpoint with exact Bernstein certificates. AI disclosure: DaysSky with Claude assistance.",
+  "license": "Apache-2.0; inherited notices and dependency licenses retained.",
+  "builds_on": [
+    "radical-asymmetric-count-20261014",
+    "detector-affine-c0125154",
+    "marked-high-count-20261014",
+    "cycle61-c0125139",
+    "cycle25-quartic-20261010",
+    "akashlevy-20261009-weighted-numerator",
+    "openai-baseline"
+  ],
+  "dependencies": [
+    "openai-baseline"
+  ],
+  "references": [
+    {
+      "label": "Radical-asymmetric source construction (timbalud)",
+      "url": "https://github.com/GTimG/QuasiRiemannTracker/pull/50"
+    },
+    {
+      "label": "Detector affine count (DaysSky)",
+      "url": "https://github.com/GTimG/QuasiRiemannTracker/pull/56"
+    },
+    {
+      "label": "Marked high-zero predecessor (timbalud)",
+      "url": "https://github.com/GTimG/QuasiRiemannTracker/pull/48"
+    },
+    {
+      "label": "Cycle61 construction (Hailey Collet)",
+      "url": "https://github.com/GTimG/QuasiRiemannTracker/pull/42"
+    }
+  ]
+}
