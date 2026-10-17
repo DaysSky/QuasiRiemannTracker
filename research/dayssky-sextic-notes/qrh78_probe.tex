@@ -1,0 +1,411 @@
+\section{The base probe and its balanced low estimate}\label{sec:probe}
+
+We now place the completed sums of the preceding section inside one
+average $I_\eta(X,Y,Z)$. Its original representation separates into an
+additive polynomial and a completed theta row. At the balanced scales
+$X=Y=Z^{1/2}$, their mean-square estimates give the direct bound
+$I_\eta\ll_\eta Z^{1/4+\epsilon}$. We first define the average for
+independent positive scales $X,Y,Z$; only the final proposition in this
+section specializes them. The next section applies Poisson summation to
+this same average and identifies the reciprocal of the target
+$L$-function in its principal row.
+
+\subsection{Definition and separation of the two factors}
+
+Choose a finite ray group $T$, independently of the target character,
+through which the functions $\mathcal R$, $G$, and the fixed primary
+and supplementary phases supported over $2,3$ in
+Lemma~\ref{lem:fixed-gauss-phase} factor.  The target-dependent
+fixed-numerator characters below need not factor through $T$.  For a
+finite-order Hecke character $\eta$, write
+\[
+ \Theta=\langle\eta,\widehat T\rangle.
+\]
+Use one excluded set $S$ for the finite family
+$\{\eta\theta:\theta\in\widehat T\}$.  It contains the primes over
+$6$, the prime supports of the defining moduli of the fixed
+zero-extended presentations of $\eta$ and the characters in
+$\widehat T$, and every prime of norm at most a fixed $P_0$.  These
+full presentations belong to the fixed arithmetic data.  They are fixed
+before $X,Y,Z$ and the varying row and prime parameters are chosen.
+Enlarging $S$ will not change $T$.
+
+The finite transform should exclude frequencies meeting $S$, including
+zero, and should leave coefficients that factor prime by prime. The
+following character and phase corrections arrange these two properties.
+
+Let $b_*$ generate the squarefree product of the primes in $S$.
+Choose a residue character $\xi$ modulo $b_*$ whose restriction to
+each prime factor is nonprincipal and whose order divides six.  Such
+a choice exists: at a prime of odd residue characteristic one may
+use the quadratic character, and the residue field at the prime over
+$2$ has order four and has a character of order three.  The Chinese
+remainder theorem makes $\xi$ primitive modulo $b_*$.  All residue
+characters below are extended by zero on nonunits.  Put
+\[
+ \begin{gathered}
+ g_\psi(c,k)=\sum_{d\bmod c}\psi(d)e(kd/c),\qquad
+ \tau=q_{b_*}^{-1/2}g_\xi(b_*,1),\qquad
+ \Xi(a)=\xi(a)\chi_a(b_*),\\
+ \Psi_{m,s,\eta}(a)=
+       \eta(a)\Xi(a)^{-1}\mathcal R(a,s)\chi_a(m)
+       \qquad ((a,S)=1).
+ \end{gathered}
+\]
+Finite character orthogonality at each prime gives $|\tau|=1$.
+By Lemma~\ref{lem:fixed-numerator-ray}, the fixed-numerator symbol
+$a\mapsto\chi_a(b_*)$ is a finite ray character whose conductor is
+supported on $S$.  Thus $\Xi$ is a fixed finite character for this
+target, although it need not factor through $T$.
+
+The primitive character $\xi$ at the primes in $S$ will force the
+Poisson frequency to be prime to $S$. The accompanying normalizations
+cancel the unit factors introduced by the auxiliary modulus $b_*$.
+For the completed index $A=cn^3$, the factor $\mathcal R(A,s)$
+cancels the cross-prime reciprocity phases between $A$ and $s$, while
+$\overline{G(A)}$ cancels the remaining pair phases within $A$.
+We verify these cancellations coefficientwise in
+Section~\ref{sec:local-euler}.
+
+Define the corrected row at spectral parameter $t+1/2$ by
+\[
+ T_{m,s,\eta}(t)=
+ \sum_{\substack{c\ {\rm sf}\\n}}
+ \gamma_2(c)\overline{\alpha(cn^3)}\Psi_{m,s,\eta}(cn^3)
+ \overline{G(cn^3)}q_c^{-1/2-t}q_n^{-1-3t}.
+\]
+Here and below the ideal variables avoid $S$.  In particular every
+factor in $\Xi(a)^{-1}$ is evaluated on a unit.  The value
+$G(cn^3)$ is the finite-ray extension in
+Equation~\eqref{eq:G-quadratic-refinement}, also when $cn^3$ is not
+squarefree.
+
+Fix nonnegative, nonzero functions $W_0,W_1\in C_c^\infty(0,\infty)$
+and put $\Phi(t)=e^{t^2}$.  Define
+\begin{equation}\label{eq:general-probe}
+\begin{aligned}
+ I_\eta(X,Y,Z)={}&\frac1Y\sum_s
+ \frac{W_1(q_s/Y)\chi_s(b_*)}
+      {\tau\xi(s)\sqrt{q_{b_*}q_sX}}\\
+ &\quad\cdot\sum_{m\in\mathcal O}
+       \xi(m)q_s^{-1/2}g_{\chi_s}(s,-m)
+       W_0\!\left(\frac{q_m}{q_{b_*}q_sX}\right)
+       \frac1{2\pi i}\int_{(4)}
+             Z^t\Phi(t)T_{m,s,\eta}(t)\,dt.
+\end{aligned}
+\end{equation}
+The masks in this definition remove nonunits at $S$.  All sums in
+Equation~\eqref{eq:general-probe} are absolutely convergent on the
+displayed line; the $m$ and $s$ sums are finite because the weights
+are annular.
+
+The fixed finite Fourier expansion of the correction is
+\[
+ \overline{G(A)}=\sum_{\theta\in\widehat T}a_\theta\theta(A),
+ \qquad
+ a_\theta=\frac1{|T|}\sum_{v\in T}
+                 \overline{G(v)}\,\overline{\theta(v)}.
+\]
+Parseval and Cauchy--Schwarz give
+$\sum_\theta|a_\theta|\le |T|^{1/2}$.  For a ray class
+$\sigma\in T$ choose a representative $s_\sigma$ and put
+\[
+ \begin{aligned}
+ \nu_\sigma(a)&=\eta(a)\Xi(a)^{-1}\mathcal R(a,s_\sigma)
+       \quad ((a,S)=1),\\
+ B_{m,\sigma}(Z)&=\sum_{\theta\in\widehat T}a_\theta
+ \frac1{2\pi i}\int_{(4)}Z^t\Phi(t)
+       T(t+1/2,\nu_\sigma\theta\chi_\bullet(m))\,dt.
+ \end{aligned}
+\]
+Extend $\nu_\sigma$ by zero away from the primary elements prime to $S$, without
+evaluating $\Xi(a)^{-1}$ there.  The function $T$ here is the completed
+product in
+Equation~\eqref{eq:reflection}, with its original zero masks.
+Since $\mathcal R(A,s)=\mathcal R(A,s_\sigma)$ for $s\in\sigma$,
+the displayed Mellin integral of the corrected row equals
+$B_{m,\sigma}(Z)$ throughout that class.
+
+For $m\ne0$, the central Mellin identity
+\eqref{eq:unmarked-central-mellin} gives the direct specialization
+\[
+ B_{m,\sigma}(Z)=\sum_{\theta\in\widehat T}a_\theta
+       \mathcal C_{V_{\rm G}}(Z;m,\nu_\sigma\theta).
+\]
+The characters $\nu_\sigma\theta$ form one fixed finite family whose
+conductor and defining-modulus supports are contained in $S$. They need
+not factor through $T$. Their original zero extensions are those in the
+completed-row moment, so that estimate applies directly to this family
+of row sums. The triangle inequality in the row Hilbert space costs only
+the fixed factor $\sum_\theta|a_\theta|$. The row-sector conversion used
+by that estimate retains the zeros at shared good primes, including when
+a row valuation is divisible by six.
+
+Write $Q=q_{b_*}XY$.  Choose a smooth compactly supported function
+$\Omega$ on $(0,\infty)$ equal to one on every value of $q_m/Q$
+that can occur on the support of
+$W_1(q_s/Y)W_0(q_m/(q_{b_*}q_sX))$.  For $v\in\mathbb R$, set
+\[
+ A_{m,\sigma,v}(Y)=\frac1Y\sum_{s\in\sigma}
+ \frac{W_1(q_s/Y)\chi_s(b_*)}{\tau\xi(s)}
+ (q_s/Y)^{-1/2+iv}q_s^{-1/2}g_{\chi_s}(s,-m).
+\]
+Our Mellin convention for $W_0$ is
+$\widehat W_0(iv)=\int_0^\infty W_0(r)r^{iv}\,dr/r$.
+Since
+$q_m/(q_{b_*}q_sX)=(q_m/Q)/(q_s/Y)$, Mellin inversion gives the
+exact identity
+\begin{equation}\label{eq:low-separated}
+ I_\eta(X,Y,Z)=\frac{Q^{-1/2}}{2\pi}
+ \sum_{\sigma\in T}\int_{\mathbb R}\widehat W_0(iv)
+ \sum_{m\ne0}\Omega(q_m/Q)\xi(m)(q_m/Q)^{-iv}
+                 A_{m,\sigma,v}(Y)B_{m,\sigma}(Z)\,dv.
+\end{equation}
+The omitted $m=0$ term vanishes by the annular support of $W_0$.
+The factor $(q_m/Q)^{-iv}$ has absolute value one.  In $A$, the
+arithmetic coefficient is fixed and bounded independently of $m,v$;
+all dependence on $v$ occurs in a norm power of the annular variable.
+
+The Gaussian $V_{\rm G}$ has Mellin transform $e^{t^2}$ and satisfies
+the reflection hypotheses directly. Thus
+Lemma~\ref{lem:unmarked-completed-moment} applies without an annular
+decomposition of this test.
+
+\subsection{The balanced low estimate}
+
+For the balanced estimate, the completed-row moment already bounds the
+mean square of $B_{m,\sigma}(Z)$. It remains to bound the additive factor
+$A_{m,\sigma,v}(Y)$. Its Gauss expansion gives distinct reduced fractions
+in $\mathbb C/\mathcal O$; their separation and coefficient mass give the
+required mean square. The planar additive large sieve is classical;
+compare Huxley's multivariable and number-field inequality \cite{Huxley}
+and the Poisson proof in \cite[Section~3, Theorem~3]{BaierBansal}. We
+include the lattice proof to record the normalization used here.
+
+\begin{lemma}[Planar additive large sieve]
+\label{lem:planar-additive-sieve}
+Let $0<\delta\le1$, let $Q\ge1$, and let $z_1,\ldots,z_J$ be a finite set
+of points in $\mathbb C/\mathcal O$ satisfying
+\[
+ \inf_{n\in\mathcal O}|z_j-z_k-n|\ge\delta
+ \qquad(j\ne k).
+\]
+Then, for arbitrary complex numbers $a_1,\ldots,a_J$,
+\[
+ \sum_{\substack{m\in\mathcal O\\q_m\le Q}}
+ \left|\sum_{j=1}^J a_j e(mz_j)\right|^2
+ \ll (Q+\delta^{-2})\sum_{j=1}^J|a_j|^2.
+\]
+The implied constant is absolute for the lattice, additive character, and
+self-dual measure fixed above.  A fixed multiple of $Q$ in the row ball is
+allowed by changing this constant.
+\end{lemma}
+
+\begin{proof}
+The assertion is immediate when $J=0$.  The characters $e(mz_j)$ are
+well defined on $\mathbb C/\mathcal O$ by self-duality.  Choose
+representatives in $\mathbb C$ for the other cases.  We use the Fourier transforms
+\[
+ \widehat F(y)=\int_{\mathbb C}F(x)e(-xy)\,d\mu(x),\qquad
+ \check\phi(x)=\int_{\mathbb C}\phi(y)e(xy)\,d\mu(y).
+\]
+Choose a nonnegative $\phi\in C_c^\infty(\mathbb C)$ of integral one,
+supported in a sufficiently small disk about zero.  Since
+$|e(xy)-1|\le (4\pi/\sqrt3)|x||y|$, its support can be chosen so that
+\[
+ |\check\phi(x)-1|\le\frac12\qquad(|x|\le1).
+\]
+Thus $F(x)=4|\check\phi(x)|^2$ is a nonnegative Schwartz function and
+$F(x)\ge1$ on the unit disk.  If
+$\widetilde\phi(y)=\overline{\phi(-y)}$, Fourier inversion and the product
+formula, with convolution taken with respect to $d\mu$, give
+\[
+ \widehat F=4\phi*\widetilde\phi.
+\]
+In particular, $\widehat F$ is bounded and supported in a disk of some fixed
+radius $L$.  This is the bandlimited majorant we need.
+
+Put $R=\sqrt Q$.  Positivity of $F$ first gives
+\[
+ \sum_{q_m\le Q}\left|\sum_j a_je(mz_j)\right|^2
+ \le \sum_{m\in\mathcal O}F(m/R)
+                    \left|\sum_j a_je(mz_j)\right|^2.
+\]
+All sums on the right converge absolutely.  For any $z\in\mathbb C$,
+the Fourier transform of $x\mapsto F(x/R)e(xz)$ at $y$ is
+$R^2\widehat F(R(y-z))$.  The factor $R^2$ is the Jacobian of the real
+two-dimensional dilation; no lattice-volume factor occurs because $d\mu$
+has covolume one on $\mathcal O$.  Poisson summation therefore expands the
+right side as
+\[
+ R^2\sum_{j,k}a_j\overline{a_k}
+       \sum_{n\in\mathcal O}
+       \widehat F\bigl(R(n-z_j+z_k)\bigr).
+\]
+
+For each fixed $j$, a term in the inner sum can be nonzero only if the lift
+$z_k+n$ lies within distance $L/R$ of $z_j$.  The set of all lifts
+$\{z_k+n:1\le k\le J,\ n\in\mathcal O\}$ is $\delta$-separated in
+$\mathbb C$.  Distinct classes have this property by hypothesis, and two
+distinct lifts of one class differ by a nonzero Eisenstein integer, whose
+absolute value is at least one and hence at least $\delta$.
+The disks of radius $\delta/3$ about lifts in a disk of radius $L/R$ are
+disjoint and lie in the concentric disk of radius $L/R+\delta/3$.
+Comparing their Euclidean areas bounds the number of these lifts by
+\[
+ \left(1+\frac{3L}{R\delta}\right)^2
+ \ll 1+(R\delta)^{-2}.
+\]
+The same bound holds with $j$ and $k$ interchanged.  Taking absolute values
+in the Poisson expansion, using the fixed bound for $\widehat F$, and then
+using $2|a_ja_k|\le |a_j|^2+|a_k|^2$, we obtain
+\[
+ \sum_{q_m\le Q}\left|\sum_j a_je(mz_j)\right|^2
+ \ll R^2\bigl(1+(R\delta)^{-2}\bigr)\sum_j|a_j|^2.
+\]
+Since $R^2=Q$, this is the asserted estimate.  Replacing $Q$ by a fixed
+multiple proves the final statement.
+\end{proof}
+
+We apply this estimate to the full residue classes in the Gauss sums.
+The zero extension of the character is important here: it makes the
+fractions reduced with respect to the displayed modulus, not merely with
+respect to an inducing conductor.
+
+\begin{lemma}[The balanced additive norm]
+\label{lem:balanced-additive-norm}
+Fix the arithmetic data of the probe, the annular weight $W_1$, a ray class
+$\sigma\in T$, and a row-ball constant $C>0$.  For $Y,Q\ge1$ and every
+real $v$, the polynomial $A_{m,\sigma,v}(Y)$ satisfies
+\[
+ \sum_{\substack{m\in\mathcal O\\q_m\le CQ}}
+       |A_{m,\sigma,v}(Y)|^2
+ \ll_{\mathcal A,W_1,C}\frac{Q+Y^2}{Y}.
+\]
+The bound is uniform in $v$.  In particular, when $Q=q_{b_*}Y^2$,
+\[
+ \sum_{q_m\le CQ}|A_{m,\sigma,v}(Y)|^2
+ \ll_{\mathcal A,W_1,C}\frac QY.
+\]
+\end{lemma}
+
+\begin{proof}
+For a primary $s$ outside $S$, put $r_s=q_s/Y$ and
+\[
+ c_\sigma(s)=1_{s\in\sigma}\frac{\chi_s(b_*)}{\tau\xi(s)}.
+\]
+The inverse is evaluated only on these elements prime to $S$.  Here $|\tau|=1$,
+$|\xi(s)|=1$, and $|\chi_s(b_*)|=1$, because $b_*$ is supported on $S$.
+Thus $|c_\sigma(s)|\le1$.  The definition of $A$ and the Gauss expansion
+give the exact identity
+\[
+ A_{m,\sigma,v}(Y)
+ =Y^{-3/2}\sum_s c_\sigma(s)W_1(r_s)r_s^{-1+iv}
+       \sum_{d\bmod s}\chi_s(d)e(-md/s).
+\]
+The sum is over primary ideals outside $S$.  For every such $s$, the
+character $\chi_s(d)$ is zero exactly when $(d,s)>1$, and has absolute value
+one otherwise.  This includes nonsquarefree $s$: a local exponent divisible
+by six is the indicator of the units at that prime, not the constant
+function one.  For $s=1$ the single residue class is included and
+$\chi_1=1$.
+
+We verify that the fractions $d/s$ for the contributing pairs are distinct
+modulo $\mathcal O$.  Suppose that $(d,s)=(d',s')=1$ and
+$d/s-d'/s'\in\mathcal O$.  Then $ds'-d's$ is divisible by $ss'$.
+Reducing this divisibility modulo $s$ and using the inverse of $d$ modulo
+$s$ gives $s\mid s'$.  The symmetric argument gives $s'\mid s$.
+The primary generator of an ideal outside $S$ is unique, so $s=s'$;
+the original congruence then gives $d=d'\pmod s$.  The same conclusion
+includes the unit modulus.  Changing a residue representative only
+translates its fraction by an element of $\mathcal O$.
+
+Let $0<r_-<r_+$ be fixed with $\operatorname{supp}W_1\subset[r_-,r_+]$.
+For two distinct contributing fractions and every $n\in\mathcal O$,
+the Eisenstein integer $ds'-d's-nss'$ is nonzero.  Hence
+\[
+ \left|\frac d s-\frac{d'}{s'}-n\right|
+ =\frac{|ds'-d's-nss'|}{|ss'|}
+ \ge\frac1{|ss'|}\ge\frac1{r_+Y}.
+\]
+The last inequality uses $q_s,q_{s'}\le r_+Y$.  Thus these fractions are
+$\delta_Y$-separated in $\mathbb C/\mathcal O$, where
+$\delta_Y=\min(1,r_+^{-1})/Y\le1$.
+
+Writing the expanded polynomial as
+$\sum_{s,d}a_{s,d}e(-md/s)$, with only the unit residue classes retained,
+its coefficient square mass is exactly
+\[
+ \begin{split}
+ \sum_{s,d}|a_{s,d}|^2
+ &=Y^{-3}\sum_s |c_\sigma(s)W_1(r_s)|^2r_s^{-2}
+       \varphi_{\mathcal O}(s),\\
+ \varphi_{\mathcal O}(s)
+ &:=\#(\mathcal O/s\mathcal O)^\times,\qquad
+ \varphi_{\mathcal O}(1):=1.
+ \end{split}
+\]
+There is no dependence on $v$ in this expression.  Since
+$\varphi_{\mathcal O}(s)\le q_s\le r_+Y$, $r_s\ge r_-$ on the support,
+and there are $O(Y)$ ideals with $q_s\le r_+Y$, this mass is $O(Y^{-1})$.
+Lemma~\ref{lem:planar-additive-sieve}, applied to the points $-d/s$ with
+separation $\delta_Y$, now proves the first bound.  Finally $q_{b_*}\ge1$,
+so $Q=q_{b_*}Y^2$ implies $Q+Y^2\le2Q$, proving the second.
+\end{proof}
+
+The additive norm now has precisely the scale needed to pair with the
+unmarked completed-row norm.  The following proposition performs that
+pairing for the original probe.
+
+\begin{proposition}[Balanced low estimate]
+\label{prop:balanced-low}
+Fix the arithmetic data and smooth weights used to define $I_\eta$.
+For every $\epsilon>0$, as $Z\to\infty$,
+\[
+ \bigl|I_\eta(Z^{1/2},Z^{1/2},Z)\bigr|
+ \ll_{\mathcal A,\epsilon} Z^{1/4+\epsilon}.
+\]
+The exponent is independent of the target character; the implied constant
+and lower threshold may depend on its fixed arithmetic data.
+\end{proposition}
+
+\begin{proof}
+Set $X=Y=Z^{1/2}$ and $Q=q_{b_*}XY=q_{b_*}Z$.  The function $\Omega$ in
+Equation~\eqref{eq:low-separated} is bounded and supported in a fixed
+compact subinterval of $(0,\infty)$.  Thus all rows in that identity lie
+in $0<q_m\le C_\Omega Q$ for a fixed constant $C_\Omega$.
+
+The specialization $M=N=1$ of
+Lemma~\ref{lem:unmarked-completed-moment}, followed by the finite ray
+decomposition defining $B_{m,\sigma}$, gives for every $\epsilon_1>0$
+\[
+ \sum_{0<q_m\le C_\Omega Q}|B_{m,\sigma}(Z)|^2
+ \ll_{\mathcal A,\epsilon_1} Z^{1+\epsilon_1}.
+\]
+Indeed, $q_{b_*}$ is fixed, so the row ball is a fixed multiple of the
+$M=1$ ball.  The completed scale is $Z$, which is $N=1$ in that lemma.
+The lemma applies directly to the Gaussian profile in the
+completed integrals defining $B$;
+the fixed finite Fourier sum over ray characters costs only a fixed factor
+by the triangle inequality in the row Hilbert space.  In particular this
+application retains the original row zero masks.
+
+Apply Cauchy--Schwarz to the row sum in
+Equation~\eqref{eq:low-separated}.  The factor $(q_m/Q)^{-iv}$ has absolute
+value one, $|\xi(m)|\le1$ with its zero extension, and $\Omega$ is bounded.
+Lemma~\ref{lem:balanced-additive-norm} is uniform in $v$, while $B$ is
+independent of $v$.  Since $W_0$ is smooth and annular,
+$\int_{\mathbb R}|\widehat W_0(iv)|\,dv<\infty$.  The finite sum over
+$\sigma\in T$ therefore gives
+\[
+ \begin{split}
+ |I_\eta(X,Y,Z)|
+ &\ll_{\mathcal A,\epsilon_1}
+ Q^{-1/2}\left(\frac QY\right)^{1/2}Z^{1/2+\epsilon_1/2}\\
+ &=Z^{1/4+\epsilon_1/2}.
+ \end{split}
+\]
+Taking $\epsilon_1=2\epsilon$ proves the proposition.
+\end{proof}
+
+\section{The Poisson representation and its Euler factors}

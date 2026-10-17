@@ -1,0 +1,29 @@
+ideals 49677 rows 10872 build 2.1s
+U=3e+03 s=0.50 mu   mean|M|^2/D=0.0715 diag=0.0752 ratio=0.9509 max=0.4
+U=3e+03 s=0.50 rmul mean|M|^2/D=0.0715 diag=0.0752 ratio=0.9509 max=0.5
+U=3e+03 s=0.50 sqf  mean|M|^2/D=0.0715 diag=0.0752 ratio=0.9509 max=0.5
+U=3e+03 s=0.75 mu   mean|M|^2/D=0.0617 diag=0.0659 ratio=0.9361 max=0.5
+U=3e+03 s=0.75 rmul mean|M|^2/D=0.0622 diag=0.0659 ratio=0.9440 max=0.7
+U=3e+03 s=0.75 sqf  mean|M|^2/D=0.0619 diag=0.0659 ratio=0.9395 max=2.6
+U=3e+03 s=0.90 mu   mean|M|^2/D=0.0640 diag=0.0683 ratio=0.9359 max=0.8
+U=3e+03 s=0.90 rmul mean|M|^2/D=0.0635 diag=0.0683 ratio=0.9289 max=0.8
+U=3e+03 s=0.90 sqf  mean|M|^2/D=0.0648 diag=0.0683 ratio=0.9480 max=9.5
+U=3e+03 s=1.00 mu   mean|M|^2/D=0.0648 diag=0.0685 ratio=0.9461 max=0.6
+U=3e+03 s=1.00 rmul mean|M|^2/D=0.0648 diag=0.0685 ratio=0.9463 max=0.7
+U=3e+03 s=1.00 sqf  mean|M|^2/D=0.0632 diag=0.0685 ratio=0.9231 max=21.5
+U=3e+03 s=1.10 mu   mean|M|^2/D=0.0649 diag=0.0692 ratio=0.9380 max=1.2
+U=3e+03 s=1.10 rmul mean|M|^2/D=0.0651 diag=0.0692 ratio=0.9408 max=0.7
+U=3e+03 s=1.10 sqf  mean|M|^2/D=0.0671 diag=0.0692 ratio=0.9696 max=48.5
+U=3e+03 s=1.20 mu   mean|M|^2/D=0.0639 diag=0.0690 ratio=0.9261 max=0.6
+U=3e+03 s=1.20 rmul mean|M|^2/D=0.0640 diag=0.0690 ratio=0.9264 max=1.0
+U=3e+03 s=1.20 sqf  mean|M|^2/D=0.0709 diag=0.0690 ratio=1.0270 max=107.2
+U=3e+03 s=1.30 mu   mean|M|^2/D=0.0644 diag=0.0692 ratio=0.9309 max=0.6
+U=3e+03 s=1.30 rmul mean|M|^2/D=0.0648 diag=0.0692 ratio=0.9360 max=0.7
+U=3e+03 s=1.30 sqf  mean|M|^2/D=0.0779 diag=0.0692 ratio=1.1254 max=239.7
+U=3e+03 s=1.40 mu   mean|M|^2/D=0.0662 diag=0.0695 ratio=0.9529 max=0.6
+U=3e+03 s=1.40 rmul mean|M|^2/D=0.0657 diag=0.0695 ratio=0.9456 max=0.9
+U=3e+03 s=1.40 sqf  mean|M|^2/D=0.1010 diag=0.0695 ratio=1.4532 max=536.6
+U=3e+03 s=1.50 mu   mean|M|^2/D=0.0644 diag=0.0694 ratio=0.9278 max=0.9
+U=3e+03 s=1.50 rmul mean|M|^2/D=0.0651 diag=0.0694 ratio=0.9387 max=0.8
+U=3e+03 s=1.50 sqf  mean|M|^2/D=0.1584 diag=0.0694 ratio=2.2824 max=1192.2
+total 8.7s

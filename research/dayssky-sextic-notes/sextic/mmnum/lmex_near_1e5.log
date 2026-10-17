@@ -1,0 +1,11 @@
+ideals 95609 rows 362214 build 3s
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/lm_exact.py", line 36, in <module>
+    OUT = run(I, rx, ry, specs, f"lmex{U}")
+  File "/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/lm_exact.py", line 33, in run
+    subprocess.run([os.path.join(mmdata.HERE, kern), fin, fout], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/mmk3', '/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/in_lmex100000.bin', '/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/out_lmex100000.bin']' died with <Signals.SIGTERM: 15>.

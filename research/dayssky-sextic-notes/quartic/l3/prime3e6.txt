@@ -1,0 +1,1 @@
+{"Z":3000000,"Q":20800,"rows":8172,"K":2346,"S_twisted":2.130522e+08,"S_untwisted":1.276758e+08,"diag":1.274150e+08,"ratio_twisted":1.67211,"ratio_untwisted":1.00205}

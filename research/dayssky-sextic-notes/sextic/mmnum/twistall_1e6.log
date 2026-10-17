@@ -1,0 +1,8 @@
+U=1e+06 X=U^0.417 rows=3621642 columns=48 mean|S^2|^2=0.0099
+N(m)=7: T(psi)/T(1-free)  [* = sextic-type, i.e. thin family]  average 0.729
+   k=0(ord 1):0.729*  k=1(ord 6):0.729*  k=2(ord 3):0.729*  k=3(ord 2):0.729*  k=4(ord 3):0.730*  k=5(ord 6):0.729*
+N(m)=13: T(psi)/T(1-free)  [* = sextic-type, i.e. thin family]  average 0.850
+   k=0(ord 1):0.850*  k=1(ord 12):0.850  k=2(ord 6):0.849*  k=3(ord 4):0.850  k=4(ord 3):0.850*  k=5(ord 12):0.850  k=6(ord 2):0.850*  k=7(ord 12):0.850  k=8(ord 3):0.850*  k=9(ord 4):0.849  k=10(ord 6):0.849*  k=11(ord 12):0.851
+N(m)=19: T(psi)/T(1-free)  [* = sextic-type, i.e. thin family]  average 0.850
+   k=0(ord 1):0.850*  k=1(ord 18):0.850  k=2(ord 9):0.851  k=3(ord 6):0.850*  k=4(ord 9):0.850  k=5(ord 18):0.850  k=6(ord 3):0.850*  k=7(ord 18):0.849  k=8(ord 9):0.850  k=9(ord 2):0.849*  k=10(ord 9):0.850  k=11(ord 18):0.851  k=12(ord 3):0.850*  k=13(ord 18):0.849  k=14(ord 9):0.850  k=15(ord 6):0.849*  k=16(ord 9):0.851  k=17(ord 18):0.850
+done

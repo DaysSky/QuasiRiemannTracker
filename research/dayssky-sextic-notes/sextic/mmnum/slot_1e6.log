@@ -1,0 +1,10 @@
+primes 93  |gtilde| mean 0.9999999999999997
+U=1e+06 r=0.5 z=0.300 a=one   r+z=0.800 r+2z=1.100  mean|MP|^2/(mean|M|^2 mean|P|^2) = 1.0675
+U=1e+06 r=0.5 z=0.300 a=gconj r+z=0.800 r+2z=1.100  mean|MP|^2/(mean|M|^2 mean|P|^2) = 1.0086
+U=1e+06 r=0.5 z=0.300 a=rand  r+z=0.800 r+2z=1.100  mean|MP|^2/(mean|M|^2 mean|P|^2) = 0.9808
+U=1e+06 r=0.5 z=0.400 a=one   r+z=0.900 r+2z=1.300  mean|MP|^2/(mean|M|^2 mean|P|^2) = 0.9993
+U=1e+06 r=0.5 z=0.400 a=gconj r+z=0.900 r+2z=1.300  mean|MP|^2/(mean|M|^2 mean|P|^2) = 1.0004
+U=1e+06 r=0.5 z=0.400 a=rand  r+z=0.900 r+2z=1.300  mean|MP|^2/(mean|M|^2 mean|P|^2) = 0.9996
+U=1e+06 r=0.5 z=0.450 a=one   r+z=0.950 r+2z=1.400  mean|MP|^2/(mean|M|^2 mean|P|^2) = 1.0000
+U=1e+06 r=0.5 z=0.450 a=gconj r+z=0.950 r+2z=1.400  mean|MP|^2/(mean|M|^2 mean|P|^2) = 0.9997
+U=1e+06 r=0.5 z=0.450 a=rand  r+z=0.950 r+2z=1.400  mean|MP|^2/(mean|M|^2 mean|P|^2) = 1.0006

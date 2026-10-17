@@ -1,0 +1,6 @@
+{"Z":2500000,"Q":18420,"rows":7236,"ratio_twisted":0.99018,"ratio_untwisted":1.03190}
+{"Z":1250000,"Q":11604,"rows":4556,"ratio_twisted":1.00731,"ratio_untwisted":1.05909}
+{"Z":625000,"Q":7310,"rows":2869,"ratio_twisted":1.04352,"ratio_untwisted":1.01655}
+{"Z":312500,"Q":4605,"rows":1808,"ratio_twisted":1.03082,"ratio_untwisted":1.06799}
+{"Z":156250,"Q":2901,"rows":1139,"ratio_twisted":1.05994,"ratio_untwisted":1.00871}
+{"Z":78125,"Q":1828,"rows":719,"ratio_twisted":0.99360,"ratio_untwisted":1.02138}

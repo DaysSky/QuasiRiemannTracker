@@ -1,0 +1,4 @@
+ideals 19073832 rows 36234 build 4351s
+U=1e+04 s=1.95 mu   MS/truediag = 0.9637 +- 0.0251  truediag/diag = 0.9370  cols_eff/rows = 120.84
+U=1e+04 s=1.95 rmul MS/truediag = 1.0029 +- 0.0271  truediag/diag = 0.9370  cols_eff/rows = 120.84
+total 4811s

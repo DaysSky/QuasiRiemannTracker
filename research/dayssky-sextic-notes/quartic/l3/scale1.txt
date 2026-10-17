@@ -1,0 +1,6 @@
+{"Z":100000,"Q":2154,"rows":847,"K":323,"S_twisted":2.040549e+06,"S_untwisted":2.021069e+06,"diag":2.029454e+06,"ratio_twisted":1.00547,"ratio_untwisted":0.99587}
+Z=100000 Q=2154 t=1s
+{"Z":300000,"Q":4481,"rows":1759,"K":609,"S_twisted":1.295246e+07,"S_untwisted":1.378027e+07,"diag":1.266568e+07,"ratio_twisted":1.02264,"ratio_untwisted":1.08800}
+Z=300000 Q=4481 t=12s
+{"Z":1000000,"Q":9999,"rows":3928,"K":1231,"S_twisted":9.364562e+07,"S_untwisted":9.482538e+07,"diag":9.403768e+07,"ratio_twisted":0.99583,"ratio_untwisted":1.00838}
+Z=1000000 Q=9999 t=109s

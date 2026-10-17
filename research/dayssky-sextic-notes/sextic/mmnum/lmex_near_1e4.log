@@ -1,0 +1,10 @@
+ideals 7585 rows 36234 build 0s
+U=1e+04 s=0.90 mu   MS/truediag = 1.0020 +- 0.0054  truediag/diag = 0.9384  cols_eff/rows = 0.01
+U=1e+04 s=0.90 rmul MS/truediag = 1.0011 +- 0.0055  truediag/diag = 0.9384  cols_eff/rows = 0.01
+U=1e+04 s=1.00 mu   MS/truediag = 0.9924 +- 0.0055  truediag/diag = 0.9409  cols_eff/rows = 0.02
+U=1e+04 s=1.00 rmul MS/truediag = 1.0011 +- 0.0055  truediag/diag = 0.9409  cols_eff/rows = 0.02
+U=1e+04 s=1.05 mu   MS/truediag = 0.9928 +- 0.0055  truediag/diag = 0.9399  cols_eff/rows = 0.03
+U=1e+04 s=1.05 rmul MS/truediag = 0.9932 +- 0.0055  truediag/diag = 0.9399  cols_eff/rows = 0.03
+U=1e+04 s=1.10 mu   MS/truediag = 1.0144 +- 0.0057  truediag/diag = 0.9395  cols_eff/rows = 0.05
+U=1e+04 s=1.10 rmul MS/truediag = 1.0044 +- 0.0057  truediag/diag = 0.9395  cols_eff/rows = 0.05
+total 9s

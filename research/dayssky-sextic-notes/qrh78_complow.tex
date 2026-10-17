@@ -1,0 +1,382 @@
+\section{The compensated low estimate}\label{sec:compensated-low}
+
+We now bound the finite compensated probe defined in
+Equation~\eqref{eq:compensated-probe-definition}.  Its exact low separation
+has two factors.  We first bound the completed row after summing the marked
+slots by applying Lemma~\ref{lem:reflected-energy} directly.  We then prove
+a quantitative Gram bound for the additive polynomial from
+Section~\ref{sec:probe}.  Cauchy--Schwarz will combine these estimates to
+give the exponent $3/16$.
+
+\subsection{The marked completed row}
+
+For a fixed rescaled subset $J$, with marked subset $J^c$, put
+\begin{equation}
+ \begin{gathered}
+ d=\sum_{i\in J}\ell_i,\qquad
+ X'=X/q_{p_J}\asymp XZ^{-d},\qquad
+ Y'=Y/q_{p_J}\asymp YZ^{-d},\\
+ M'=M-2d,\qquad \ell'=\ell-d,\qquad 0\le d\le\ell=1/6.
+ \end{gathered}
+ \label{old-eq:5.2}
+\end{equation}
+For a squarefree product $D$ of slot primes, define the marked completed
+series
+\[
+ T_D(s_0,\psi)=\sum_{\substack{c\ {\rm sf}\\n}}
+ \gamma_2(c)\overline{\alpha(cn^3)}\psi(cn^3)
+ 1_{D\mid cn^3}q_c^{-s_0}q_n^{-3s_0+1/2}.
+\]
+The ideals $c,n$ are the original ideals prime to $S$, represented by their
+primary generators, with $c$ squarefree;
+they may share primes.  All character powers retain their original zero
+extensions.  For the empty product $D=1$ this is the completed $T(s_0,\psi)$.
+For this fixed $J$, let
+\[
+\begin{split}
+ B^J_{m,\sigma}(Z)=
+ \sum_{p_i\in\mathcal P_i(Z),\ i\notin J}
+ \prod_{i\notin J}\overline{\eta(p_i)}W_i(q_{p_i}/P_i)
+ \sum_{\theta\in\widehat T}a_\theta\frac1{2\pi i}
+ \int_{(4)} &(Zq_{p_{J^c}})^t\Phi(t)\\
+ &\cdot T_{p_{J^c}}(t+1/2,
+             \nu_\sigma\theta\chi_\bullet(m))\,dt.
+\end{split}
+\]
+Thus $B^J$ is exactly the completed-row factor for the $J$ summand
+of Equation~\eqref{eq:compensated-probe-definition} after the
+marked slots have been summed.  The fixed tuple $p_J$ affects
+only $X',Y'$ in its low separation.
+
+\begin{lemma}[The compensated completed-row norm]\label{lem:probe-row-norm}
+For every $\epsilon>0$, every fixed rescaled subset $J$, and every
+$\sigma\in T$, with $Q=q_{b_*}X'Y'\asymp Z^{M'}$,
+\begin{equation}
+ \sum_{0<q_m\ll Q}|B^J_{m,\sigma}(Z)|^2
+       \ll Z^{M'+((d-1/6)/4)_++\epsilon}
+       =Z^{M'+\epsilon}.
+ \label{old-eq:5.4}
+\end{equation}
+The bound is uniform in the fixed rescaled tuple and has no
+loss depending on the mesh of the surviving slots.
+\end{lemma}
+
+\begin{proof}
+Put $A=cn^3$ and $\varrho_i=q_{p_i}/P_i$ for $i\notin J$.  Since
+$q_A=q_cq_n^3$ even when $c,n$ share primes, and
+$q_{p_{J^c}}=Z^{\ell'}\prod_{i\notin J}\varrho_i$, Mellin inversion
+of the displayed integral defining $B^J$ gives the physical smooth factor
+\[
+ \begin{gathered}
+ V\!\left(\frac{q_A}{Zq_{p_{J^c}}}\right)
+ =W_{\mathrm G}\!\left(\frac{r}{\prod_{i\notin J}\varrho_i}\right),\\
+ r=\frac{q_A}{Z^{1+\ell'}}.
+ \end{gathered}
+\]
+Here $V=W_{\mathrm G}$ is the Gaussian of
+Lemma~\ref{lem:gaussian-annular}.  Empty products are one.
+
+Use the fixed translate partition $\chi$ from that lemma on $r$.
+On the annulus $r=e^kx$, retain the single joint profile
+\[
+ w_{k,J}(x,\boldsymbol\varrho)
+ =\chi(\log x)W_{\mathrm G}\!\left(
+       \frac{e^kx}{\prod_{i\notin J}\varrho_i}\right)
+       \prod_{i\notin J}W_i(\varrho_i).
+\]
+The logarithms of $x$ and of all the $\varrho_i$ lie in fixed compact
+sets on this support.  Thus the logarithm of the Gaussian argument is
+$k+O_{\rm fixed}(1)$.  The derivative estimate in
+Lemma~\ref{lem:gaussian-annular}, with this bounded shift and the fixed
+slot windows, gives for every fixed $\kappa_{\mathrm G}>0$,
+$A_{\rm cnt},B_{\rm cnt},C_{\rm ann}\ge0$, $D_{\rm tail}>0$, and
+fixed seminorm order $j$,
+\[
+ \begin{gathered}
+ \sum_{k\in\mathbb Z}e^{A_{\rm cnt}|k|}p_j(w_{k,J})<\infty,
+ \\
+ Z^{B_{\rm cnt}}
+ \sum_{|k|>\kappa_{\mathrm G}\log Z-C_{\rm ann}}
+       e^{A_{\rm cnt}|k|}p_j(w_{k,J})
+       \ll Z^{-D_{\rm tail}}.
+ \end{gathered}
+\]
+The constants may depend on the fixed slot system, but not on its moving
+prime labels.  On an annulus $\log r=k+O(1)$, an absolute bound for the
+row $\ell^2$ norm is at most
+$Z^{B_{\rm cnt}}e^{A_{\rm cnt}|k|}p_j(w_{k,J})$ for some fixed exponents,
+by the elementary row, slot, and ideal counts.  Choose $C_{\rm ann}$ larger
+than the fixed logarithmic radius of $\chi$ and discard only whole annuli
+with $|k|>\kappa_{\mathrm G}\log Z+C_{\rm ann}$.  Summing their norm bounds
+and then squaring gives less than any prescribed power of $Z^{-1}$.
+Every annulus meeting $|\log_Z r|\le\kappa_{\mathrm G}$ is retained.
+
+For each remaining annulus, keep fixed individual annular cutoffs equal to
+one on the support of $w_{k,J}$ and apply
+Lemma~\ref{lem:smooth-calculus} to this whole profile.  Its logarithmic
+Fourier inversion uses one coefficient density common to every row and
+every surviving slot tuple.  The normalized slot ratios remain variables
+of the joint profile until separation; they do not index separately
+chosen densities.  For fixed Fourier variables, each resulting slot
+coefficient is a product of the
+original arithmetic coefficient $\overline{\eta(p_i)}$ and an individual
+annular cutoff and norm power.  It remains bounded and independent of the
+row and of every other slot.  The completed factor is an annular test at
+length
+\[
+ N_*=1+\ell'+\theta_N,\qquad
+ \theta_N=\frac{k}{\log Z},\qquad
+ |\theta_N|\le\kappa_{\mathrm G}+O_{\rm fixed}(1/\log Z).
+\]
+These retained lengths lie in a fixed bounded range.  The weighted Fourier
+norms have a summable total by the displayed Gaussian estimate; the small
+annular weight stays in this homogeneous single-profile Fourier norm, not
+in an inhomogeneous tuple seminorm.  Minkowski's inequality passes the
+separated row norm through this common density.  The existing $q_c^{-1/2}q_n^{-1}$
+normalization stays unchanged when the test scale is recentered, so no
+additional power of $e^k$ is introduced.  Choose $\kappa_{\mathrm G}$
+within the final $\epsilon$ allowance.  For each fixed $\theta$,
+Lemma~\ref{lem:reflection-row-sectors} supplies the row-sector reduction of
+$\nu_\sigma\theta\chi_\bullet(m)$ with every original zero mask.  It covers
+all nonzero element rows, including those meeting $S$; no factor $\xi(m)$ is
+used in this row norm.  The row ball depends only on the fixed rescaled tuple
+$p_J$, through $Q=q_{b_*}X'Y'$, and is independent of the surviving marked
+slots and dual variables.  The physical slot sets remain disjoint and their
+separated coefficients are product-form.  Finite triangle over $\theta$ and
+Lemma~\ref{lem:reflected-energy} therefore give the exponent in
+Equation~\eqref{old-eq:4.6} at this actual $N_*$, taking the retention
+parameter $\tau_{\rm ref}$ and the independently prescribed output
+and separation losses all at most a small $\epsilon_0>0$.  We use
+the exponent $E_{\rm ref}$ after the fixed row parts are summed;
+their count is already included in $E_{\rm ref}+\epsilon_0$, with
+principal exponent $O/2$, and is not counted again.
+
+Here $f=1$ and the puncture is $\rho=1$, so the only moving non-slot
+primes are those of the row.  After the finite unit and reflection-sector
+splits in Lemma~\ref{lem:reflected-energy}, freeze its powerful part of norm length
+$O$ and its valuation-one part supported on $S$, and split its residual
+squarefree good product into \emph{actual} dyads of norm $\asymp Z^H$.  Let
+$\epsilon_Z=O_{\rm fixed}(1/\log Z)$ be nonnegative and large enough
+to contain all fixed annular and fixed-conductor logarithmic offsets
+in this calculation.  Then
+\[
+ H\le M'-O+\epsilon_Z,\qquad
+ \Delta_H=M'-O-H\ge-\epsilon_Z,\qquad O\ge-\epsilon_Z.
+\]
+The actual row and dual annular cutoffs are kept in one joint
+profile while its common Fourier density is separated.  The small
+kernel amplitude is extracted from that homogeneous density before
+the row norm is squared, and only then may the positive sieve sum be
+enlarged, as in Equation~\eqref{eq:reflection-common-minkowski}.
+In particular the kernel saving in
+Equation~\eqref{old-eq:4.6} uses this $H$; it is not reevaluated on
+any shorter rows added by the positive enlargement.
+
+In the notation of that energy estimate, every moving non-slot prime
+counted in $A_0$ divides the powerful row part to exponent at least
+two.  The comparison of its exact norm with the powerful dyad, and
+any fixed-conductor contribution, therefore gives
+\[
+ 2A_0\le O+\epsilon_Z,\qquad N_0\le A_0,\qquad z_a\le\ell'.
+\]
+The available dual length at the actual completed scale is
+\[
+ T_d=2H+2A_0+2z_a-1-\ell'-\theta_N-N_0-3B_0.
+\]
+Since $M'+\ell'-1=-3d$, direct subtraction gives
+\[
+ T_d-(H-3d)
+ =H-M'+2A_0+2(z_a-\ell')-N_0-3B_0-\theta_N
+ \le 2\epsilon_Z+|\theta_N|.
+\]
+As in the proof of the reflected energy, dual ranges below a fixed
+negative length are negligible after a positive Mellin shift, and
+the bounded boundary range costs an arbitrarily small power.
+The source dual ideals $n,b$ in these dyads retain the support of
+Equation~\eqref{old-eq:4.3}: they may share primes and may contain
+the permitted primes of $S$; no additional $S$-mask or coprimality
+condition between $n$ and $b$ is imposed.
+On each remaining dual dyad, put $y=v+3\ell_b+e_\lambda$.  Retention
+gives $y\le T_d+\epsilon_0$, while the nonzero unit ranges give
+$v,\ell_b,e_\lambda\ge-\epsilon_Z$ after increasing its fixed
+constant.  It follows that
+\[
+ \max(H,v+\ell_b)=H+O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z).
+\]
+
+Write $s_{\rm hyb}=\min\{v,z_a,(v+z_a)/3\}$ for the quantity
+called $u$ in Equation~\eqref{old-eq:4.7}.  If $s_{\rm hyb}=z_a$,
+then $-S_0-B_0+z_a-s_{\rm hyb}\le0$, the kernel term is
+nonpositive, and
+\[
+ -\ell_b-\frac{2e_\lambda}{3}\le\frac53\epsilon_Z.
+\]
+Here the standalone $O$ is the powerful-row logarithmic length.  It follows that
+\[
+ \begin{aligned}
+ E_{\rm ref}&\le O/2+H+O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z)\\
+ &=M'-O/2-\Delta_H+O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z).
+ \end{aligned}
+\]
+Otherwise $s_{\rm hyb}\ge v/2-O(\epsilon_Z)$, and the bounded unit
+ranges imply
+\[
+ s_{\rm hyb}+\ell_b+\frac{2e_\lambda}{3}
+       +\frac{(T_d-y)_+}{2}
+ \ge \frac y4+\frac{(T_d-y)_+}{2}-O(\epsilon_Z)
+ \ge \frac{T_d}{4}-O(\epsilon_Z).
+\]
+The last inequality holds separately for $y\le T_d$ and $y\ge T_d$.
+Here the squared kernel saving is obtained by first extracting
+$\min\{1,Z^{(y-T_d)/4}\}$ from the common Fourier density and only
+then squaring the row norm.  Relative to $M'$, the saving
+before the remaining $+z_a$ is exactly
+\begin{equation}
+ \begin{split}
+ O/2+\Delta_H+S_0+B_0+T_d/4
+ ={}&\frac{2M'+2z_a-1-\ell'+2\Delta_H-\theta_N}{4}\\
+    &+\frac{2A_0-N_0+B_0+4S_0}{4}.
+ \end{split}
+ \label{old-eq:5.3}
+\end{equation}
+The second numerator is nonnegative.  Since $z_a\le\ell'$, the
+energy in this branch is at most
+\[
+ \begin{aligned}
+ &M'+\frac{1+3\ell'-2M'-2\Delta_H+\theta_N}{4}
+       +O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z)\\
+ &\qquad=M'+\frac{d-1/6-2\Delta_H+\theta_N}{4}
+       +O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z).
+ \end{aligned}
+\]
+After using $O\ge-\epsilon_Z$ and absorbing $\theta_N$, the two
+upper bounds are
+\[
+ \begin{gathered}
+ M'-\Delta_H+O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z),\\
+ M'+\frac{d-1/6-2\Delta_H}{4}
+       +O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z).
+ \end{gathered}
+\]
+They are nonincreasing in $\Delta_H$.  Since
+$\Delta_H\ge-\epsilon_Z$, their formal $\Delta_H=0$ values bound
+every actual dyad up to $O(\epsilon_Z)$, whether or not an endpoint
+dyad occurs.  Their maximum is therefore at most
+$M'+((d-1/6)/4)_++O(\epsilon_0+\kappa_{\mathrm G}+\epsilon_Z)$.
+At $d=1/6$ one has $\ell'=z_a=0$ and the clipped unit range falls
+in the first branch; bounded negative unit dyads change only
+$\epsilon_Z$.  Choose $\epsilon_0$ and $\kappa_{\mathrm G}$ within the prescribed
+$\epsilon$ allowance, and then increase the fixed-data lower
+threshold so that $\epsilon_Z$ also lies within it.  Summing the
+logarithmically many row and dual dyads proves the lemma.
+\end{proof}
+
+\subsection{The additive Gram bound}
+
+We next estimate the additive factor in the range $Y'^2/Q\ge1$.  The
+full correlation of Lemma~\ref{lem:full-correlation} retains the collision
+zeros that determine both its cancellation and its exceptional frequencies.
+
+\begin{proposition}[A quantitative additive Gram bound]\label{prop:probe-gram}
+\subsection{Completion of the low bound}
+
+The two preceding estimates now apply to the two factors of the same
+rescaled summand in the exact low separation.
+
+\begin{proposition}[The compensated low estimate]\label{prop:probe-low}
+For the probe in Equation~\eqref{eq:compensated-probe-definition},
+the geometry in Equation~\eqref{old-eq:5.1}, and every
+$\epsilon>0$,
+\begin{equation}
+ |I_{\eta,\mathrm{modified}}(Z)|
+       \ll Z^{l_x/2+b/12+\epsilon}=Z^{3/16+\epsilon}.
+ \label{old-eq:5.10}
+\end{equation}
+The exponent is independent of the target and the slot mesh; the
+constant and lower threshold may depend on the fixed arithmetic
+data, slot system, and smooth tests.
+\end{proposition}
+
+\begin{proof}
+For a fixed rescaled subset and tuple, put $Q=q_{b_*}X'Y'$.
+Its separation is Equation~\eqref{eq:low-separated} with
+$A_{m,\sigma,v}(Y')$ and $B^J_{m,\sigma}(Z)$.  Put
+$r_J=q_{p_J}/Z^d$; the fixed annular supports give
+$0<c_J\le r_J\le C_J<\infty$ uniformly in the tuple.  Exactly,
+\[
+ \begin{gathered}
+ X'=Z^{l_x-d}/r_J,\qquad Y'=Z^{l_y-d}/r_J,\\
+ Q=q_{b_*}Z^{M'}/r_J^2,\qquad
+ P_a=Y'^2/Q=q_{b_*}^{-1}Z^{1/8}.
+ \end{gathered}
+\]
+In particular $P_a\ge1$ for $Z\ge q_{b_*}^8$.  Enlarge the allowed
+fixed-data lower threshold so that $Q,Y'\ge1$ uniformly over the
+tuple ratios as well; this is possible because $M'\ge1/2$ and
+$l_y-d\ge5/16$.  The remaining length inequalities are
+\[
+ l_x-d\ge3/16,\qquad l_y-d\ge5/16,
+ \qquad l_y-d-11b/6\ge1/12.
+\]
+The last one gives
+\[
+ \frac{Y'}{P_a^{11/6}}
+ =q_{b_*}^{11/6}r_J^{-1}Z^{l_y-d-11b/6}
+       \gg_{\rm fixed}Z^{1/12},
+\]
+and hence $P_a^2/Y'\ll P_a^{1/6}$.  Proposition~\ref{prop:probe-gram}
+therefore gives
+\begin{equation}
+ \sum_{q_m\ll Q}|A_{m,\sigma,v}(Y')|^2
+ \ll (1+|v|)^{J_{\mathrm{Gr}}}(Q/Y')P_a^{1/6}Z^\epsilon.
+ \label{old-eq:5.6}
+\end{equation}
+Cauchy--Schwarz in the row sum, Lemma~\ref{lem:probe-row-norm},
+and the integrability of $(1+|v|)^{J_{\mathrm{Gr}}/2}|\widehat W_0(iv)|$ now
+bound this tuple's unscaled separation by $Z^\epsilon$ times
+\[
+ \begin{aligned}
+ Q^{-1/2}\bigl[(Q/Y')P_a^{1/6}\bigr]^{1/2}
+       \bigl[Z^{M'}\bigr]^{1/2}
+ &=\bigl[Z^{M'}/Y'\bigr]^{1/2}P_a^{1/12}\\
+ &=r_J(X')^{1/2}P_a^{1/12}.
+ \end{aligned}
+\]
+Since $r_J$ is bounded, this is
+$O((X')^{1/2}P_a^{1/12}Z^\epsilon)$.
+
+For $d=\sum_{i\in J}\ell_i$ there are at most $Z^{d+\epsilon}$
+rescaled tuples, the coefficient is $O(Z^{-3d/2})$, and
+$(X')^{1/2}\asymp X^{1/2}Z^{-d/2}$.  The total additional exponent
+is consequently
+\begin{equation}
+ f(d)=d-3d/2-d/2=-d\le0.
+ \label{old-eq:5.5}
+\end{equation}
+Choose the small powers in the component estimates so that their sum lies
+within the prescribed $\epsilon$.  Summing the finitely many subsets proves
+Equation~\eqref{old-eq:5.10}.  For the already defined
+$C=C_{\mathrm{II}}$ of Equation~\eqref{eq:part-II-mellin-target}, the
+normalization used for the principal signal satisfies
+\begin{equation}
+ \begin{gathered}
+ C_{\mathrm{II}}(s)=l_x/2+s-1+h/6=s-11/16,\\
+ C_{\mathrm{II}}(7/8)=3/16=l_x/2+b/12.
+ \end{gathered}
+ \label{old-eq:5.11}
+\end{equation}
+Thus, under the contradiction assumed in Part~II, this low bound is smaller
+than $Z^{C_{\mathrm{II}}(\beta_*)}$ by the exact power
+$\Delta=\beta_*-7/8$, apart from the arbitrarily prescribed $\epsilon$.
+\end{proof}
+
+\section{The local compensation and its errors}
+\label{sec:local-compensation}
+
+The physical modification in Section~\ref{sec:compensation} has already
+been estimated from its separated low representation.  We now identify its
+full Euler correction and bound the local errors left by the two-term
+operation.  Throughout, the local notation $P_p,P_p^*,H_p,V,W,D,R$ is that
+of Lemma~\ref{lem:local-euler}; in the shared analytic estimates its variable
+$x$ is called $s$.  Fix a nonzero sixth-power-free physical row $u$ with
+$(u,S)=1$.  All slot primes belong to the sets $\mathcal P_i(Z)$ of

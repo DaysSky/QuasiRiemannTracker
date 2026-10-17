@@ -1,0 +1,27 @@
+X=100000, #a (N(a)<= 300) = 88
+principal rows a^6: M_{a^6}(D) = D^{-1/2} sum_{(n,a)=1} mu(n) W(Nn/D)
+  D=     1000: mean_a |M|^2 = 0.2256  max_a |M|^2 = 0.6477  |mean_a M|^2 = 2.10e-01   (trivial bound ~ D; zero at beta would give ~D^(2beta-1))
+  D=     3162: mean_a |M|^2 = 0.0359  max_a |M|^2 = 0.2678  |mean_a M|^2 = 1.17e-02   (trivial bound ~ D; zero at beta would give ~D^(2beta-1))
+  D=    10000: mean_a |M|^2 = 0.0917  max_a |M|^2 = 0.3687  |mean_a M|^2 = 7.90e-02   (trivial bound ~ D; zero at beta would give ~D^(2beta-1))
+  D=    31623: mean_a |M|^2 = 0.0163  max_a |M|^2 = 0.1211  |mean_a M|^2 = 5.39e-05   (trivial bound ~ D; zero at beta would give ~D^(2beta-1))
+  D=   100000: mean_a |M|^2 = 0.0253  max_a |M|^2 = 0.1311  |mean_a M|^2 = 1.95e-02   (trivial bound ~ D; zero at beta would give ~D^(2beta-1))
+principal rows: |S_{a^6}(N)|^2 / N  (expected ~ const * (phi(a)/N(a))^2 )
+  N=     100: mean_a |S|^2/N = 0.0074   a=1: 0.0082
+  N=    1000: mean_a |S|^2/N = 0.0074   a=1: 0.0084
+  N=   10000: mean_a |S|^2/N = 0.0073   a=1: 0.0083
+  N=  100000: mean_a |S|^2/N = 0.0073   a=1: 0.0083
+fixed nonprincipal rows u = k0 (and k0 a^6): |S_{k0}(N)|^2 and |M_{k0}(D)|^2
+  k0=w         |S|^2: N=1e2.0:3.8e-02  N=1e3.0:7.7e-03  N=1e4.0:2.2e-04  N=1e5.0:1.8e-06   max_a|S_(k0 a^6)(1e4)|^2=8.7e-03   |M|^2: D=1e3.0:0.182  D=1e4.0:0.014  D=1e5.0:0.070
+  k0=-1        |S|^2: N=1e2.0:5.8e-02  N=1e3.0:1.1e-03  N=1e4.0:6.3e-06  N=1e5.0:1.1e-07   max_a|S_(k0 a^6)(1e4)|^2=2.6e-03   |M|^2: D=1e3.0:0.006  D=1e4.0:0.215  D=1e5.0:0.025
+  k0=lambda    |S|^2: N=1e2.0:7.0e-02  N=1e3.0:1.6e-02  N=1e4.0:2.6e-02  N=1e5.0:4.2e-04   max_a|S_(k0 a^6)(1e4)|^2=6.9e-02   |M|^2: D=1e3.0:0.055  D=1e4.0:0.017  D=1e5.0:0.027
+  k0=2         |S|^2: N=1e2.0:9.5e-03  N=1e3.0:3.9e-02  N=1e4.0:4.6e-03  N=1e5.0:3.0e-04   max_a|S_(k0 a^6)(1e4)|^2=2.9e-02   |M|^2: D=1e3.0:0.021  D=1e4.0:0.010  D=1e5.0:0.146
+  k0=pi7       |S|^2: N=1e2.0:2.7e-02  N=1e3.0:1.1e-01  N=1e4.0:4.9e-02  N=1e5.0:1.1e-05   max_a|S_(k0 a^6)(1e4)|^2=1.1e-01   |M|^2: D=1e3.0:0.113  D=1e4.0:0.100  D=1e5.0:0.072
+  k0=pi7*pi13  |S|^2: N=1e2.0:9.4e-02  N=1e3.0:4.0e-02  N=1e4.0:8.5e-02  N=1e5.0:1.5e-04   max_a|S_(k0 a^6)(1e4)|^2=1.4e-01   |M|^2: D=1e3.0:0.038  D=1e4.0:0.013  D=1e5.0:0.189
+barrier exponent theta(m) = (11-12m)/(12(1-m)):
+  m=0.0000  theta=0.91667  principal-row excess over U given beta*=7/8: U^-0.0833
+  m=0.1500  theta=0.90196  principal-row excess over U given beta*=7/8: U^-0.0458
+  m=0.2500  theta=0.88889  principal-row excess over U given beta*=7/8: U^-0.0208
+  m=0.3333  theta=0.87500  principal-row excess over U given beta*=7/8: U^+0.0000
+  m=0.3750  theta=0.86667  principal-row excess over U given beta*=7/8: U^+0.0104
+  m=0.4000  theta=0.86111  principal-row excess over U given beta*=7/8: U^+0.0167
+  m=0.5000  theta=0.83333  principal-row excess over U given beta*=7/8: U^+0.0417

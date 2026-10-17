@@ -1,0 +1,6 @@
+[window-aware gao] CI=1.2 ALPHA=0.8333 CPW=4.498: theta_min 0.872762 (h 0.7706958801314222)
+[window-aware gao] CI=1.5 ALPHA=0.8333 CPW=4.498: theta_min 0.873204 (h 0.80953565676092)
+[window-aware gao] CI=2.0 ALPHA=0.7000 CPW=4.498: theta_min 0.873655 (h 0.7580722463873284)
+[window-aware gao] CI=1.8 ALPHA=0.8333 CPW=4.498: theta_min 0.874355 (h 0.8048299712763975)
+[window-aware gao] CI=1.5 ALPHA=0.7500 CPW=3.000: theta_min 0.872385 (h 0.8011824930040894)
+[window-aware gao] CI=1.0 ALPHA=0.7000 CPW=2.000: theta_min 0.870775 (h 0.7753475939484774)

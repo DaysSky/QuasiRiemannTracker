@@ -1,0 +1,7 @@
+M=0.6 {"Z":1000000,"Q":3981,"rows":1566,"ratio_twisted":1.01161,"ratio_untwisted":1.05114}
+M=0.75 {"Z":1000000,"Q":31623,"rows":12419,"ratio_twisted":1.00376,"ratio_untwisted":0.98440}
+M=0.85 {"Z":1000000,"Q":125893,"rows":49439,"ratio_twisted":0.99801,"ratio_untwisted":1.00507}
+
+real	2m52.949s
+user	11m8.481s
+sys	0m1.894s

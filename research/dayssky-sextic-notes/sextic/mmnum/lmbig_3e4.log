@@ -1,0 +1,12 @@
+ideals 560272 rows 108606 build 47s
+U=3e+04 s=1.00 mu   mean|M|^2/diag = 0.9380 +- 0.0154  max/mean = 11.2
+U=3e+04 s=1.00 rmul mean|M|^2/diag = 0.9702 +- 0.0166  max/mean = 10.8
+U=3e+04 s=1.10 mu   mean|M|^2/diag = 0.9230 +- 0.0160  max/mean = 13.6
+U=3e+04 s=1.10 rmul mean|M|^2/diag = 0.9320 +- 0.0155  max/mean = 9.7
+U=3e+04 s=1.20 mu   mean|M|^2/diag = 0.9343 +- 0.0156  max/mean = 11.3
+U=3e+04 s=1.20 rmul mean|M|^2/diag = 0.9577 +- 0.0160  max/mean = 12.6
+U=3e+04 s=1.30 mu   mean|M|^2/diag = 0.9528 +- 0.0167  max/mean = 14.2
+U=3e+04 s=1.30 rmul mean|M|^2/diag = 0.9481 +- 0.0163  max/mean = 10.2
+U=3e+04 s=1.40 mu   mean|M|^2/diag = 0.9127 +- 0.0157  max/mean = 9.8
+U=3e+04 s=1.40 rmul mean|M|^2/diag = 0.9223 +- 0.0156  max/mean = 11.3
+total 78s

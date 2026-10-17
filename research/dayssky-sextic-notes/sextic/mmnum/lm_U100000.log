@@ -1,0 +1,11 @@
+ideals 302299 rows 362214 build 21.7s
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/lm.py", line 25, in <module>
+    V = run_kernel(I, rx, ry, specs, f"lmU{U}")
+  File "/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/mmdata.py", line 108, in run_kernel
+    subprocess.run([os.path.join(HERE, 'mmk'), fin, fout], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/mmk', '/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/in_lmU100000.bin', '/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/mmnum/out_lmU100000.bin']' died with <Signals.SIGSEGV: 11>.

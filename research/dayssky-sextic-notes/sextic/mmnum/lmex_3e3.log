@@ -1,0 +1,14 @@
+ideals 2720720 rows 10872 build 292s
+U=3e+03 s=0.80 mu   MS/truediag = 1.0060 +- 0.0098  truediag/diag = 0.9355  cols_eff/rows = 0.00
+U=3e+03 s=0.80 rmul MS/truediag = 0.9979 +- 0.0096  truediag/diag = 0.9355  cols_eff/rows = 0.00
+U=3e+03 s=1.00 mu   MS/truediag = 1.0042 +- 0.0097  truediag/diag = 0.9421  cols_eff/rows = 0.02
+U=3e+03 s=1.00 rmul MS/truediag = 1.0131 +- 0.0100  truediag/diag = 0.9421  cols_eff/rows = 0.02
+U=3e+03 s=1.20 mu   MS/truediag = 0.9856 +- 0.0099  truediag/diag = 0.9396  cols_eff/rows = 0.09
+U=3e+03 s=1.20 rmul MS/truediag = 1.0128 +- 0.0103  truediag/diag = 0.9396  cols_eff/rows = 0.09
+U=3e+03 s=1.50 mu   MS/truediag = 0.9876 +- 0.0105  truediag/diag = 0.9395  cols_eff/rows = 1.05
+U=3e+03 s=1.50 rmul MS/truediag = 0.9871 +- 0.0100  truediag/diag = 0.9395  cols_eff/rows = 1.05
+U=3e+03 s=1.80 mu   MS/truediag = 0.9896 +- 0.0103  truediag/diag = 0.9396  cols_eff/rows = 11.58
+U=3e+03 s=1.80 rmul MS/truediag = 1.0003 +- 0.0104  truediag/diag = 0.9396  cols_eff/rows = 11.58
+U=3e+03 s=2.00 mu   MS/truediag = 1.0054 +- 0.0109  truediag/diag = 0.9396  cols_eff/rows = 57.44
+U=3e+03 s=2.00 rmul MS/truediag = 0.9911 +- 0.0104  truediag/diag = 0.9396  cols_eff/rows = 57.44
+total 1473s

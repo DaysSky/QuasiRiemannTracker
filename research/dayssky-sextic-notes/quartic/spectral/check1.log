@@ -1,0 +1,8 @@
+validate c= (3, -2) N= 13 mismatches: 0  Kloost direct vs model: 2.225768740185726e-14
+validate c= (11, 10) N= 221 mismatches: 0  Kloost direct vs model: 1.2434780384701429e-13
+split primes N<=400: max |S|/(2 sqrt q) = 0.9967  max |S(x^3,x^3)-chi(x)S(1,x^6)| = 7.944109290391274e-15
+inert p=7 q=49: max |S|/(2 sqrt q) = 0.9595
+inert p=11 q=121: max |S|/(2 sqrt q) = 0.8205
+inert p=19 q=361: max |S|/(2 sqrt q) = 0.8147
+inert p=23 q=529: max |S|/(2 sqrt q) = 0.9711
+Mellin identity S(1,n)=(1/(q-1)) sum_l conj(l(n)) g(l)g(l chi): max err 6.346871642396535e-14

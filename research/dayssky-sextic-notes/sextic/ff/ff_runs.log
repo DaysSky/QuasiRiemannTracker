@@ -1,0 +1,7 @@
+== 7 6 18
+/tmp/claude-0/-home-user-QuasiRiemannTracker/726b9ed3-631a-533e-b4f5-2a9b6d3bc0e0/scratchpad/sextic/ff/ff_lm.py:134: RuntimeWarning: overflow encountered in scalar multiply
+  k= 6 s=k/d= 1.00  MS/(#u q^k)=1.6055  MS/truediag=2.1455  max|M|^2/q^k=281.42
+  k= 9 s=k/d= 1.50  MS/(#u q^k)=2.5937  MS/truediag=3.4660  max|M|^2/q^k=994.85
+  k=12 s=k/d= 2.00  MS/(#u q^k)=5.1154  MS/truediag=6.8358  max|M|^2/q^k=2589.75
+  k=18 s=k/d= 3.00  MS/(#u q^k)=356.5902  MS/truediag=17.6668  max|M|^2/q^k=10678.01
+== 13 5 15

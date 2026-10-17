@@ -1,0 +1,60 @@
+U=1000 rows=3636 ideals=303 primes=165 specs=39 prep 0.0s
+kernel 0.1s
+r=1.000 m=0.000 mu   MM=   0.2389 diag=   0.2422 ratio= 0.9860 z=-0.81 max|MS|^2/U=1.42e-03 nM=139 nS=0
+r=1.000 m=0.000 rnd  MM=   0.2403 diag=   0.2422 ratio= 0.9921 z=-0.49 max|MS|^2/U=5.11e-04 nM=139 nS=0
+r=1.000 m=0.000 rmul MM=   0.2403 diag=   0.2422 ratio= 0.9920 z=-0.48 max|MS|^2/U=5.69e-04 nM=139 nS=0
+r=0.850 m=0.150 mu   MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=49 nS=0
+r=0.850 m=0.150 rnd  MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=49 nS=0
+r=0.850 m=0.150 rmul MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=49 nS=0
+r=0.750 m=0.250 mu   MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=28 nS=0
+r=0.750 m=0.250 rnd  MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=28 nS=0
+r=0.750 m=0.250 rmul MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=28 nS=0
+r=0.667 m=0.333 mu   MM=   0.0411 diag=   0.0426 ratio= 0.9632 z=-1.63 max|MS|^2/U=1.95e-04 nM=14 nS=2
+r=0.667 m=0.333 rnd  MM=   0.0400 diag=   0.0404 ratio= 0.9917 z=-0.36 max|MS|^2/U=1.24e-04 nM=14 nS=2
+r=0.667 m=0.333 rmul MM=   0.0440 diag=   0.0426 ratio= 1.0314 z=+1.27 max|MS|^2/U=1.50e-04 nM=14 nS=2
+r=0.600 m=0.400 mu   MM=   0.0156 diag=   0.0159 ratio= 0.9789 z=-0.97 max|MS|^2/U=5.06e-05 nM=7 nS=2
+r=0.600 m=0.400 rnd  MM=   0.0156 diag=   0.0159 ratio= 0.9804 z=-0.91 max|MS|^2/U=3.75e-05 nM=7 nS=2
+r=0.600 m=0.400 rmul MM=   0.0156 diag=   0.0159 ratio= 0.9804 z=-0.91 max|MS|^2/U=3.75e-05 nM=7 nS=2
+r=0.500 m=0.500 mu   MM=   0.0135 diag=   0.0136 ratio= 0.9899 z=-0.47 max|MS|^2/U=2.06e-05 nM=5 nS=5
+r=0.500 m=0.500 rnd  MM=   0.0135 diag=   0.0136 ratio= 0.9898 z=-0.48 max|MS|^2/U=2.05e-05 nM=5 nS=5
+r=0.500 m=0.500 rmul MM=   0.0053 diag=   0.0053 ratio= 0.9896 z=-0.76 max|MS|^2/U=3.96e-06 nM=5 nS=5
+r=0.900 m=0.000 mu   MM=   0.2140 diag=   0.2194 ratio= 0.9751 z=-1.58 max|MS|^2/U=3.91e-04 nM=70 nS=0
+r=0.900 m=0.000 rnd  MM=   0.2177 diag=   0.2194 ratio= 0.9920 z=-0.49 max|MS|^2/U=4.73e-04 nM=70 nS=0
+r=0.900 m=0.000 rmul MM=   0.2243 diag=   0.2194 ratio= 1.0224 z=+1.26 max|MS|^2/U=7.04e-04 nM=70 nS=0
+r=0.750 m=0.150 mu   MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=28 nS=0
+r=0.750 m=0.150 rnd  MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=28 nS=0
+r=0.750 m=0.150 rmul MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=28 nS=0
+r=0.650 m=0.250 mu   MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=9 nS=0
+r=0.650 m=0.250 rnd  MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=9 nS=0
+r=0.650 m=0.250 rmul MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=9 nS=0
+r=0.500 m=0.400 mu   MM=   0.0168 diag=   0.0173 ratio= 0.9686 z=-1.64 max|MS|^2/U=3.05e-05 nM=5 nS=2
+r=0.500 m=0.400 rnd  MM=   0.0168 diag=   0.0173 ratio= 0.9686 z=-1.64 max|MS|^2/U=3.05e-05 nM=5 nS=2
+r=0.500 m=0.400 rmul MM=   0.0168 diag=   0.0173 ratio= 0.9686 z=-1.64 max|MS|^2/U=3.05e-05 nM=5 nS=2
+r=0.400 m=0.500 mu   MM=   0.0168 diag=   0.0173 ratio= 0.9686 z=-1.64 max|MS|^2/U=3.05e-05 nM=2 nS=5
+r=0.400 m=0.500 rnd  MM=   0.0168 diag=   0.0173 ratio= 0.9686 z=-1.64 max|MS|^2/U=3.05e-05 nM=2 nS=5
+r=0.400 m=0.500 rmul MM=   0.0176 diag=   0.0173 ratio= 1.0162 z=+0.79 max|MS|^2/U=3.04e-05 nM=2 nS=5
+r=0.950 m=0.150 mu   MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=98 nS=0
+r=0.950 m=0.150 rnd  MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=98 nS=0
+r=0.950 m=0.150 rmul MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=98 nS=0
+r=0.850 m=0.250 mu   MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=49 nS=0
+r=0.850 m=0.250 rnd  MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=49 nS=0
+r=0.850 m=0.250 rmul MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=49 nS=0
+r=0.700 m=0.400 mu   MM=   0.0301 diag=   0.0311 ratio= 0.9684 z=-1.32 max|MS|^2/U=1.24e-04 nM=17 nS=2
+r=0.700 m=0.400 rnd  MM=   0.0265 diag=   0.0267 ratio= 0.9937 z=-0.27 max|MS|^2/U=1.23e-04 nM=17 nS=2
+r=0.700 m=0.400 rmul MM=   0.0228 diag=   0.0223 ratio= 1.0227 z=+1.06 max|MS|^2/U=7.23e-05 nM=17 nS=2
+r=0.600 m=0.500 mu   MM=   0.0077 diag=   0.0079 ratio= 0.9781 z=-0.98 max|MS|^2/U=2.39e-05 nM=7 nS=5
+r=0.600 m=0.500 rnd  MM=   0.0077 diag=   0.0079 ratio= 0.9776 z=-1.01 max|MS|^2/U=2.66e-05 nM=7 nS=5
+r=0.600 m=0.500 rmul MM=   0.0077 diag=   0.0079 ratio= 0.9776 z=-1.01 max|MS|^2/U=2.66e-05 nM=7 nS=5
+r=1.000 m=0.250 mu   MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=139 nS=0
+r=1.000 m=0.250 rnd  MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=139 nS=0
+r=1.000 m=0.250 rmul MM=   0.0000 diag=   0.0000 ratio=    nan z=+0.00 max|MS|^2/U=0.00e+00 nM=139 nS=0
+r=0.850 m=0.400 mu   MM=   0.0253 diag=   0.0263 ratio= 0.9609 z=-1.59 max|MS|^2/U=9.52e-05 nM=49 nS=2
+r=0.850 m=0.400 rnd  MM=   0.0244 diag=   0.0247 ratio= 0.9848 z=-0.65 max|MS|^2/U=1.25e-04 nM=49 nS=2
+r=0.850 m=0.400 rmul MM=   0.0224 diag=   0.0228 ratio= 0.9838 z=-0.68 max|MS|^2/U=1.03e-04 nM=49 nS=2
+r=0.750 m=0.500 mu   MM=   0.0119 diag=   0.0124 ratio= 0.9562 z=-1.78 max|MS|^2/U=5.49e-05 nM=28 nS=5
+r=0.750 m=0.500 rnd  MM=   0.0127 diag=   0.0124 ratio= 1.0203 z=+0.74 max|MS|^2/U=5.35e-05 nM=28 nS=5
+r=0.750 m=0.500 rmul MM=   0.0120 diag=   0.0124 ratio= 0.9660 z=-1.37 max|MS|^2/U=5.08e-05 nM=28 nS=5
+plain x plain m1=0.5 m2=0.5 MM=0.0135 diag=0.0136 ratio=0.9899 z=-0.47 max/U=2.06e-05
+  res['configs'].append(dict(r=None, m=m1, m2=m2, var='plainxplain', MM=MM, diag=dg, ratio=MM / dg, se=se, z=(MM-dg)/se,
+plain x plain m1=0.25 m2=0.75 MM=0.0000 diag=0.0000 ratio=nan z=+nan max/U=0.00e+00
+total 0.1s

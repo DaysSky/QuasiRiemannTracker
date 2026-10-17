@@ -1,0 +1,34 @@
+composite c = pi1 pi2:  Deligne+CRT bound |Ssum| <= 36 N(c);  also |S(x^3,x^3;c)| <= 4 sqrt(N c)
+  c=(11, 10) N=  221: max|S(x^3,x^3)|/sqrtN=2.325  max|Ssum|/N= 2.386  E|Ssum/N|^2=0.855
+  c=(-11, 16) N=  377: max|S(x^3,x^3)|/sqrtN=2.342  max|Ssum|/N= 2.836  E|Ssum/N|^2=0.686
+  c=(-15, -16) N=  481: max|S(x^3,x^3)|/sqrtN=1.575  max|Ssum|/N= 1.400  E|Ssum/N|^2=0.401
+  c=(7, -22) N=  533: max|S(x^3,x^3)|/sqrtN=1.668  max|Ssum|/N= 2.083  E|Ssum/N|^2=0.468
+  c=(-13, -18) N=  493: max|S(x^3,x^3)|/sqrtN=3.013  max|Ssum|/N= 4.673  E|Ssum/N|^2=0.738
+  c=(23, -10) N=  629: max|S(x^3,x^3)|/sqrtN=2.027  max|Ssum|/N= 2.306  E|Ssum/N|^2=0.432
+  c=(21, 16) N=  697: max|S(x^3,x^3)|/sqrtN=2.850  max|Ssum|/N= 4.000  E|Ssum/N|^2=0.763
+  c=(15, 26) N=  901: max|S(x^3,x^3)|/sqrtN=2.792  max|Ssum|/N= 5.122  E|Ssum/N|^2=0.777
+  c=(17, 28) N= 1073: max|S(x^3,x^3)|/sqrtN=2.661  max|Ssum|/N= 4.155  E|Ssum/N|^2=0.714
+  c=(-17, 30) N= 1189: max|S(x^3,x^3)|/sqrtN=3.135  max|Ssum|/N= 4.673  E|Ssum/N|^2=0.831
+  c=(-31, 24) N= 1537: max|S(x^3,x^3)|/sqrtN=3.071  max|Ssum|/N= 5.983  E|Ssum/N|^2=0.846
+  c=(37, 20) N= 1769: max|S(x^3,x^3)|/sqrtN=2.585  max|Ssum|/N= 3.638  E|Ssum/N|^2=0.662
+  c=(-29, -26) N= 1517: max|S(x^3,x^3)|/sqrtN=2.517  max|Ssum|/N= 3.557  E|Ssum/N|^2=0.738
+  c=(-19, -40) N= 1961: max|S(x^3,x^3)|/sqrtN=2.465  max|Ssum|/N= 4.554  E|Ssum/N|^2=0.751
+  c=(-31, 36) N= 2257: max|S(x^3,x^3)|/sqrtN=2.651  max|Ssum|/N= 5.112  E|Ssum/N|^2=1.122
+  c=(27, -38) N= 2173: max|S(x^3,x^3)|/sqrtN=2.905  max|Ssum|/N= 5.122  E|Ssum/N|^2=0.874
+  c=(-49, -10) N= 2501: max|S(x^3,x^3)|/sqrtN=3.123  max|Ssum|/N= 5.749  E|Ssum/N|^2=1.306
+prime squares c = pi^2 (kappa = quadratic char mod pi: Salie-type):
+  pi=(-1, -2) N(c)=   25: max|S(x^3,x^3)|/sqrtN=1.984  max|Ssum|/N= 3.259  E|Ssum/N|^2=1.600  #nonzero j / N = 0.400
+  pi=(3, -2) N(c)=  169: max|S(x^3,x^3)|/sqrtN=1.994  max|Ssum|/N= 3.546  E|Ssum/N|^2=1.846  #nonzero j / N = 0.462
+  pi=(1, 4) N(c)=  289: max|S(x^3,x^3)|/sqrtN=2.000  max|Ssum|/N= 3.932  E|Ssum/N|^2=1.882  #nonzero j / N = 0.471
+  pi=(-5, 2) N(c)=  841: max|S(x^3,x^3)|/sqrtN=2.000  max|Ssum|/N= 3.977  E|Ssum/N|^2=1.931  #nonzero j / N = 0.483
+  pi=(-1, -6) N(c)= 1369: max|S(x^3,x^3)|/sqrtN=2.000  max|Ssum|/N= 3.943  E|Ssum/N|^2=1.946  #nonzero j / N = 0.486
+  pi=(5, -4) N(c)= 1681: max|S(x^3,x^3)|/sqrtN=2.000  max|Ssum|/N= 3.988  E|Ssum/N|^2=1.951  #nonzero j / N = 0.488
+phase structure of Ssum(j;pi): spread of arg(Ssum^2) over j (0 => real up to fixed phase)
+  q=313: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 3.493
+  q=317: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 2.759
+  q=337: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 2.804
+  q=349: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 2.148
+  q=353: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 2.922
+  q=373: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 3.759
+  q=389: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 3.133
+  q=397: |mean(Ssum^2/|Ssum|^2)| = 1.000   real-Gaussian check E|.|^4/(E|.|^2)^2 = 3.272

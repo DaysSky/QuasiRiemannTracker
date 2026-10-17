@@ -1,0 +1,8 @@
+primes 21  |gtilde| mean 1.0
+U=3e+06 m=0.35 rows=10864896 mean|S|^2=12.824 mean|S|^4=326.866 max|S|^4/mean=245.2
+  z=0.250 a=one   2m+z=0.950 2m+4.5z=1.825: |S^2P|^2 ratio=0.9996   (|MP|^2 ratio=1.0002)
+  z=0.250 a=gconj 2m+z=0.950 2m+4.5z=1.825: |S^2P|^2 ratio=0.9988   (|MP|^2 ratio=1.0000)
+  z=0.250 a=rand  2m+z=0.950 2m+4.5z=1.825: |S^2P|^2 ratio=1.0004   (|MP|^2 ratio=0.9999)
+  z=0.300 a=one   2m+z=1.000 2m+4.5z=2.050: |S^2P|^2 ratio=0.9992   (|MP|^2 ratio=1.0000)
+  z=0.300 a=gconj 2m+z=1.000 2m+4.5z=2.050: |S^2P|^2 ratio=0.9994   (|MP|^2 ratio=1.0000)
+  z=0.300 a=rand  2m+z=1.000 2m+4.5z=2.050: |S^2P|^2 ratio=0.9995   (|MP|^2 ratio=1.0004)

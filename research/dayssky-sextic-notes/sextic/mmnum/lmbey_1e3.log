@@ -1,0 +1,20 @@
+ideals 1203469 rows 3636 build 131s
+U=1e+03 s=1.00 mu   mean|M|^2/diag = 0.9296 +- 0.0163  max/mean = 21.7  cols_eff/rows = 0.02
+U=1e+03 s=1.00 rmul mean|M|^2/diag = 0.9408 +- 0.0165  max/mean = 10.4  cols_eff/rows = 0.02
+U=1e+03 s=1.00 sqf  mean|M|^2/diag = 0.9518 +- 0.0324  max/mean = 110.2  cols_eff/rows = 0.02
+U=1e+03 s=1.30 mu   mean|M|^2/diag = 0.9337 +- 0.0158  max/mean = 8.0  cols_eff/rows = 0.15
+U=1e+03 s=1.30 rmul mean|M|^2/diag = 0.9273 +- 0.0163  max/mean = 10.5  cols_eff/rows = 0.15
+U=1e+03 s=1.30 sqf  mean|M|^2/diag = 1.0942 +- 0.2268  max/mean = 753.1  cols_eff/rows = 0.15
+U=1e+03 s=1.60 mu   mean|M|^2/diag = 0.9537 +- 0.0165  max/mean = 6.6  cols_eff/rows = 1.20
+U=1e+03 s=1.60 rmul mean|M|^2/diag = 0.9487 +- 0.0170  max/mean = 12.1  cols_eff/rows = 1.20
+U=1e+03 s=1.60 sqf  mean|M|^2/diag = 2.5177 +- 1.8132  max/mean = 2619.2  cols_eff/rows = 1.20
+U=1e+03 s=1.80 mu   mean|M|^2/diag = 0.9453 +- 0.0167  max/mean = 7.8  cols_eff/rows = 4.79
+U=1e+03 s=1.80 rmul mean|M|^2/diag = 0.9787 +- 0.0182  max/mean = 15.1  cols_eff/rows = 4.79
+U=1e+03 s=1.80 sqf  mean|M|^2/diag = 7.7312 +- 7.2193  max/mean = 3395.8  cols_eff/rows = 4.79
+U=1e+03 s=2.00 mu   mean|M|^2/diag = 0.8930 +- 0.0164  max/mean = 11.8  cols_eff/rows = 19.09
+U=1e+03 s=2.00 rmul mean|M|^2/diag = 0.9694 +- 0.0191  max/mean = 35.5  cols_eff/rows = 19.09
+U=1e+03 s=2.00 sqf  mean|M|^2/diag = 29.1338 +- 28.7485  max/mean = 3588.4  cols_eff/rows = 19.09
+U=1e+03 s=2.20 mu   mean|M|^2/diag = 0.9598 +- 0.0178  max/mean = 12.3  cols_eff/rows = 75.97
+U=1e+03 s=2.20 rmul mean|M|^2/diag = 0.9505 +- 0.0171  max/mean = 11.4  cols_eff/rows = 75.97
+U=1e+03 s=2.20 sqf  mean|M|^2/diag = 114.5397 +- 114.4175  max/mean = 3632.6  cols_eff/rows = 75.97
+total 193s

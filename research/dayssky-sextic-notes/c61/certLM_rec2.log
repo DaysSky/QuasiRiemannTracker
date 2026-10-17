@@ -1,0 +1,5 @@
+ETA 0 window 11/10 5/4 B 0.9894790815402827
+{'theta': 0.874845, 'h': 0.7957, 'ell': 0.16728666666666667, 'x': 0.3715866666666667, 'y': 0.4611266666666667, 'kap': 0.74969}
+new d=h certified boxes 108529 min slack 1.5435928782357258e-09
+old d=d- certified boxes 30699 min slack 2.487010798187326e-08
+old d=1/2 certified boxes 29 min slack 0.001312939428669529

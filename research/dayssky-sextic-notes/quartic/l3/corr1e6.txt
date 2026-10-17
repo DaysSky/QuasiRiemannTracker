@@ -1,0 +1,22 @@
+corrT_1e6.bin rows 3482
+  window 0: S/diag=1.007  E[x^2]/E[x]^2=2.00  E[x^3]/E[x]^3=5.97  max/mean=7.5
+  window 1: S/diag=1.034  E[x^2]/E[x]^2=2.04  E[x^3]/E[x]^3=6.47  max/mean=10.4
+  window 2: S/diag=1.011  E[x^2]/E[x]^2=2.00  E[x^3]/E[x]^3=6.02  max/mean=10.1
+  window 3: S/diag=1.047  E[x^2]/E[x]^2=1.93  E[x^3]/E[x]^3=5.28  max/mean=7.6
+  corr(win0,win1) of x: -0.040   of log x: -0.029   (null s.e. ~ 0.017)
+  corr(win0,win2) of x: 0.016   of log x: 0.016   (null s.e. ~ 0.017)
+  corr(win0,win3) of x: -0.027   of log x: -0.047   (null s.e. ~ 0.017)
+  corr(win1,win2) of x: 0.020   of log x: -0.003   (null s.e. ~ 0.017)
+  corr(win1,win3) of x: -0.003   of log x: 0.020   (null s.e. ~ 0.017)
+  corr(win2,win3) of x: -0.011   of log x: -0.019   (null s.e. ~ 0.017)
+corrD_1e6.bin rows 3482
+  window 0: S/diag=0.802  E[x^2]/E[x]^2=4.09  E[x^3]/E[x]^3=34.79  max/mean=20.2
+  window 1: S/diag=0.882  E[x^2]/E[x]^2=4.04  E[x^3]/E[x]^3=33.77  max/mean=17.3
+  window 2: S/diag=0.918  E[x^2]/E[x]^2=3.62  E[x^3]/E[x]^3=25.10  max/mean=17.4
+  window 3: S/diag=0.921  E[x^2]/E[x]^2=3.71  E[x^3]/E[x]^3=28.91  max/mean=19.5
+  corr(win0,win1) of x: 0.476   of log x: 0.485   (null s.e. ~ 0.017)
+  corr(win0,win2) of x: 0.470   of log x: 0.431   (null s.e. ~ 0.017)
+  corr(win0,win3) of x: 0.402   of log x: 0.447   (null s.e. ~ 0.017)
+  corr(win1,win2) of x: 0.483   of log x: 0.452   (null s.e. ~ 0.017)
+  corr(win1,win3) of x: 0.515   of log x: 0.478   (null s.e. ~ 0.017)
+  corr(win2,win3) of x: 0.462   of log x: 0.465   (null s.e. ~ 0.017)

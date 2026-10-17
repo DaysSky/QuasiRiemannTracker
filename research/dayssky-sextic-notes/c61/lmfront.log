@@ -1,0 +1,4 @@
+s0=1.02: LM slope a' <= 0.697 on [1,1.02] gains >= 0.00008 (a' = 0.703 does not)
+s0=1.05: LM slope a' <= 0.775 on [1,1.05] gains >= 0.00008 (a' = 0.781 does not)
+s0=1.1: LM slope a' <= 0.801 on [1,1.1] gains >= 0.00008 (a' = 0.807 does not)
+s0=1.16: LM slope a' <= 0.814 on [1,1.16] gains >= 0.00008 (a' = 0.820 does not)

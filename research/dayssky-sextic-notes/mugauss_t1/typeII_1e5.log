@@ -1,0 +1,6 @@
+primes 9602 check cube: 2.0913480609564275e-13
+X 100000  balanced Type II weight d in (X^.4, X^.6]  (cumulative over N(c) <= Xk, with the d-range fixed by X)
+   100000  sum g~ w / Xk^(5/6) = +0.2688   |sum mu g~ w| / Xk^(1/2) = 0.213   / Xk^(5/6) = 0.0046
+    50000  sum g~ w / Xk^(5/6) = +0.2593   |sum mu g~ w| / Xk^(1/2) = 0.455   / Xk^(5/6) = 0.0123
+    25000  sum g~ w / Xk^(5/6) = +0.2381   |sum mu g~ w| / Xk^(1/2) = 0.260   / Xk^(5/6) = 0.0089
+    12500  sum g~ w / Xk^(5/6) = +0.2528   |sum mu g~ w| / Xk^(1/2) = 0.623   / Xk^(5/6) = 0.0268

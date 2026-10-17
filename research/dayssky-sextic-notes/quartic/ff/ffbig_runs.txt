@@ -1,0 +1,9 @@
+q=29 n=3 d=2 rows=841  S/diag=1.0345  squarefree-rows S/diag=0.0369  max row ratio=28.96
+q=37 n=3 d=2 rows=1369  S/diag=1.0270  squarefree-rows S/diag=0.0285  max row ratio=36.97
+q=41 n=3 d=2 rows=1681  S/diag=1.0244  squarefree-rows S/diag=0.0256  max row ratio=40.98
+q=53 n=3 d=2 rows=2809  S/diag=1.0189  squarefree-rows S/diag=0.0196  max row ratio=52.98
+q=13 n=4 d=3 rows=2197  S/diag=0.9877  squarefree-rows S/diag=0.0872  max row ratio=143.15
+q=17 n=4 d=3 rows=4913  S/diag=0.9929  squarefree-rows S/diag=0.0651  max row ratio=255.12
+q=5 n=8 d=5 rows=3125  S/diag=0.1801  squarefree-rows S/diag=0.0543  max row ratio=15.67
+
+[exited with code 0]

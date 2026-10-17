@@ -1,0 +1,28 @@
+{"D": 50000, "eta": 1.3333333, "H": 1842015, "rows": 5786848, "nspec": 7252, "ngen": 5779596, "nsamp": 400000, "cols": 8682, "sumW2": 4274.8051537909, "diag": 22254449222.39726, "time_build": 2.4562742710113525, "time_kernel": 77.33719396591187}
+mu          S/diag=  1.0005 (gen  0.9992 +- 0.0017, sq-rows  0.0012, 4th-rows  0.0000)  S/((H+D)*sumW2)= 2.7529  maxrow/D=0.0061
+rand1       S/diag=  0.9979 (gen  0.9967 +- 0.0016, sq-rows  0.0012, 4th-rows  0.0000)  S/((H+D)*sumW2)= 2.7458  maxrow/D=0.0050
+rand2       S/diag=  0.9971 (gen  0.9959 +- 0.0016, sq-rows  0.0011, 4th-rows  0.0001)  S/((H+D)*sumW2)= 2.7436  maxrow/D=0.0048
+rand3       S/diag=  1.0004 (gen  0.9991 +- 0.0016, sq-rows  0.0012, 4th-rows  0.0001)  S/((H+D)*sumW2)= 2.7527  maxrow/D=0.0045
+sqfree(=1)  S/diag=  1.0241 (gen  0.9945 +- 0.0016, sq-rows  0.0008, 4th-rows  0.0289)  S/((H+D)*sumW2)= 2.8179  maxrow/D=0.1049
+randmult    S/diag=  0.9992 (gen  0.9979 +- 0.0017, sq-rows  0.0012, 4th-rows  0.0001)  S/((H+D)*sumW2)= 2.7493  maxrow/D=0.0066
+{"D": 50000, "eta": 1.1666667, "H": 303481, "rows": 953380, "nspec": 2964, "ngen": 950416, "nsamp": 400000, "cols": 8682, "sumW2": 4274.8051537909, "diag": 3668299723.547116, "time_build": 2.083228349685669, "time_kernel": 52.056225299835205}
+mu          S/diag=  0.9933 (gen  0.9902 +- 0.0017, sq-rows  0.0030, 4th-rows  0.0002)  S/((H+D)*sumW2)= 2.4114  maxrow/D=0.0061
+rand1       S/diag=  0.9996 (gen  0.9966 +- 0.0016, sq-rows  0.0029, 4th-rows  0.0001)  S/((H+D)*sumW2)= 2.4266  maxrow/D=0.0044
+rand2       S/diag=  0.9993 (gen  0.9964 +- 0.0016, sq-rows  0.0027, 4th-rows  0.0002)  S/((H+D)*sumW2)= 2.4260  maxrow/D=0.0048
+rand3       S/diag=  1.0008 (gen  0.9976 +- 0.0016, sq-rows  0.0029, 4th-rows  0.0004)  S/((H+D)*sumW2)= 2.4296  maxrow/D=0.0048
+sqfree(=1)  S/diag=  1.0828 (gen  0.9740 +- 0.0016, sq-rows  0.0015, 4th-rows  0.1072)  S/((H+D)*sumW2)= 2.6285  maxrow/D=0.1049
+randmult    S/diag=  0.9984 (gen  0.9953 +- 0.0017, sq-rows  0.0028, 4th-rows  0.0003)  S/((H+D)*sumW2)= 2.4238  maxrow/D=0.0055
+{"D": 100000, "eta": 1.3333333, "H": 4641587, "rows": 14581916, "nspec": 11560, "ngen": 14570356, "nsamp": 300000, "cols": 17383, "sumW2": 8540.48923578062, "diag": 112032502917.08966, "time_build": 7.701215028762817, "time_kernel": 56.389710903167725}
+mu          S/diag=  1.0042 (gen  1.0033 +- 0.0020, sq-rows  0.0008, 4th-rows  0.0000)  S/((H+D)*sumW2)= 2.7781  maxrow/D=0.0049
+rand1       S/diag=  0.9997 (gen  0.9989 +- 0.0018, sq-rows  0.0008, 4th-rows  0.0000)  S/((H+D)*sumW2)= 2.7657  maxrow/D=0.0032
+rand2       S/diag=  1.0007 (gen  0.9999 +- 0.0018, sq-rows  0.0008, 4th-rows  0.0000)  S/((H+D)*sumW2)= 2.7686  maxrow/D=0.0034
+rand3       S/diag=  0.9994 (gen  0.9986 +- 0.0018, sq-rows  0.0007, 4th-rows  0.0000)  S/((H+D)*sumW2)= 2.7649  maxrow/D=0.0037
+sqfree(=1)  S/diag=  1.0243 (gen  0.9947 +- 0.0019, sq-rows  0.0005, 4th-rows  0.0291)  S/((H+D)*sumW2)= 2.8337  maxrow/D=0.1048
+randmult    S/diag=  0.9999 (gen  0.9991 +- 0.0020, sq-rows  0.0008, 4th-rows  0.0000)  S/((H+D)*sumW2)= 2.7662  maxrow/D=0.0044
+{"D": 100000, "eta": 1.1666667, "H": 681292, "rows": 2140376, "nspec": 4420, "ngen": 2135956, "nsamp": 300000, "cols": 17383, "sumW2": 8540.48923578062, "diag": 16449843766.87292, "time_build": 7.955816030502319, "time_kernel": 64.11664032936096}
+mu          S/diag=  1.0007 (gen  0.9984 +- 0.0020, sq-rows  0.0022, 4th-rows  0.0002)  S/((H+D)*sumW2)= 2.4671  maxrow/D=0.0046
+rand1       S/diag=  0.9980 (gen  0.9960 +- 0.0018, sq-rows  0.0019, 4th-rows  0.0001)  S/((H+D)*sumW2)= 2.4604  maxrow/D=0.0030
+rand2       S/diag=  0.9983 (gen  0.9962 +- 0.0018, sq-rows  0.0020, 4th-rows  0.0001)  S/((H+D)*sumW2)= 2.4611  maxrow/D=0.0034
+rand3       S/diag=  0.9981 (gen  0.9960 +- 0.0018, sq-rows  0.0019, 4th-rows  0.0002)  S/((H+D)*sumW2)= 2.4606  maxrow/D=0.0037
+sqfree(=1)  S/diag=  1.0990 (gen  0.9787 +- 0.0018, sq-rows  0.0009, 4th-rows  0.1195)  S/((H+D)*sumW2)= 2.7095  maxrow/D=0.1048
+randmult    S/diag=  0.9986 (gen  0.9965 +- 0.0020, sq-rows  0.0020, 4th-rows  0.0001)  S/((H+D)*sumW2)= 2.4619  maxrow/D=0.0043

@@ -1,0 +1,8 @@
+M=0.55 {"Z":300000,"Q":1029,"rows":406,"K":172,"S_twisted":2.966776e+06,"S_untwisted":3.315775e+06,"diag":2.919969e+06,"ratio_twisted":1.01603,"ratio_untwisted":1.13555}
+  t=21s
+M=0.6 {"Z":300000,"Q":1933,"rows":758,"K":293,"S_twisted":5.727494e+06,"S_untwisted":6.281822e+06,"diag":5.454281e+06,"ratio_twisted":1.05009,"ratio_untwisted":1.15172}
+  t=22s
+M=0.75 {"Z":300000,"Q":12818,"rows":5037,"K":1527,"S_twisted":3.674501e+07,"S_untwisted":3.743759e+07,"diag":3.623982e+07,"ratio_twisted":1.01394,"ratio_untwisted":1.03305}
+  t=27s
+M=0.85 {"Z":300000,"Q":45243,"rows":17758,"K":4685,"S_twisted":1.303888e+08,"S_untwisted":1.251226e+08,"diag":1.278124e+08,"ratio_twisted":1.02016,"ratio_untwisted":0.97896}
+  t=38s

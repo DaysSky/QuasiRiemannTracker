@@ -1,0 +1,8 @@
+ideals 275700 build 18s
+U=1e+08 r=0.745 z=0.15 (2 prime ideals) r+z=0.895 r+2z=1.045 a=one: rho = 1.0709 +- 0.0121
+U=1e+08 r=0.745 z=0.15 (2 prime ideals) r+z=0.895 r+2z=1.045 a=rand: rho = 1.0198 +- 0.0115
+U=1e+08 r=0.745 z=0.2 (5 prime ideals) r+z=0.945 r+2z=1.145 a=one: rho = 1.0513 +- 0.0126
+U=1e+08 r=0.745 z=0.2 (5 prime ideals) r+z=0.945 r+2z=1.145 a=rand: rho = 0.9735 +- 0.0111
+U=1e+08 r=0.745 z=0.25 (10 prime ideals) r+z=0.995 r+2z=1.245 a=one: rho = 1.0741 +- 0.0147
+U=1e+08 r=0.745 z=0.25 (10 prime ideals) r+z=0.995 r+2z=1.245 a=rand: rho = 0.9960 +- 0.0121
+total 89s

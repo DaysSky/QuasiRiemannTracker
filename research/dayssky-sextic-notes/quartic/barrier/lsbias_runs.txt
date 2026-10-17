@@ -1,0 +1,14 @@
+{"D": 300000, "eta": 0.6666667, "H": 4481, "rows": 14068, "nspec": 356, "ngen": 13712, "nsamp": 13712, "cols": 52136, "sumW2": 25642.630086894627, "diag": 324683278.2355647, "time_build": 301.60804772377014, "time_kernel": 12.562642097473145}
+mu          S/diag=  1.0133 (gen  0.9870 +- 0.0000, sq-rows  0.0208, 4th-rows  0.0055)  S/((H+D)*sumW2)= 0.0421  maxrow/D=0.0026
+rand1       S/diag=  1.0021 (gen  0.9759 +- 0.0000, sq-rows  0.0172, 4th-rows  0.0090)  S/((H+D)*sumW2)= 0.0417  maxrow/D=0.0014
+sqfree(=1)  S/diag= 16.9508 (gen  0.5063 +- 0.0000, sq-rows  0.0010, 4th-rows 16.4435)  S/((H+D)*sumW2)= 0.7049  maxrow/D=0.1049
+conj(gt)    S/diag=  4.4612 (gen  4.2924 +- 0.0000, sq-rows  0.0841, 4th-rows  0.0847)  S/((H+D)*sumW2)= 0.1855  maxrow/D=0.0040
+gt          S/diag=  1.1206 (gen  0.9716 +- 0.0000, sq-rows  0.0729, 4th-rows  0.0760)  S/((H+D)*sumW2)= 0.0466  maxrow/D=0.0040
+mu*conj(gt) S/diag=  1.0101 (gen  0.9908 +- 0.0000, sq-rows  0.0159, 4th-rows  0.0034)  S/((H+D)*sumW2)= 0.0420  maxrow/D=0.0015
+{"D": 3000, "eta": 0.6666667, "H": 208, "rows": 664, "nspec": 80, "ngen": 584, "nsamp": 584, "cols": 520, "sumW2": 257.9049484805277, "diag": 153816.52621606595, "time_build": 0.3809492588043213, "time_kernel": 0.047936201095581055}
+mu          S/diag=  1.0006 (gen  0.9023 +- 0.0000, sq-rows  0.0749, 4th-rows  0.0234)  S/((H+D)*sumW2)= 0.1860  maxrow/D=0.0129
+rand1       S/diag=  1.0382 (gen  0.8899 +- 0.0000, sq-rows  0.0826, 4th-rows  0.0657)  S/((H+D)*sumW2)= 0.1930  maxrow/D=0.0139
+sqfree(=1)  S/diag=  2.0705 (gen  0.7192 +- 0.0000, sq-rows  0.0354, 4th-rows  1.3159)  S/((H+D)*sumW2)= 0.3849  maxrow/D=0.1058
+conj(gt)    S/diag=  1.4558 (gen  1.2864 +- 0.0000, sq-rows  0.0626, 4th-rows  0.1068)  S/((H+D)*sumW2)= 0.2707  maxrow/D=0.0201
+gt          S/diag=  1.0542 (gen  0.8804 +- 0.0000, sq-rows  0.0670, 4th-rows  0.1068)  S/((H+D)*sumW2)= 0.1960  maxrow/D=0.0138
+mu*conj(gt) S/diag=  0.9412 (gen  0.8443 +- 0.0000, sq-rows  0.0651, 4th-rows  0.0318)  S/((H+D)*sumW2)= 0.1750  maxrow/D=0.0122

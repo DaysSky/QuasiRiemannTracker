@@ -1,0 +1,114 @@
+\part{The seven-eighths zero-free half-plane}
+\label{part:seven-eighths}
+
+\section{The compensated probe}\label{sec:compensation}
+
+Theorem~\ref{thm:eleven-twelfths} applies to every primitive character
+entering the supremum in Equation~\eqref{old-eq:1.1b}, and therefore gives
+$\beta_*\le11/12$.  Suppose for contradiction throughout Part~II that
+$\beta_*>7/8$, and put
+\begin{equation}\label{eq:part-II-bootstrap}
+ \Delta:=\beta_*-\frac78,\qquad 0<\Delta\le\frac1{24},
+ \qquad
+ \kappa:=2\beta_*-1=\frac34+2\Delta\le\frac56.
+\end{equation}
+The exact bin ceiling in Section~\ref{sec:detector} applies, since
+$\beta_*>7/8>51/100$.  For every retained nonprincipal row and its bin
+$(i,a)$ it gives
+\begin{equation}\label{eq:part-II-bin-ceiling}
+ a\le\beta_*,\qquad \delta=2a-1\le\kappa\le\frac56.
+\end{equation}
+Indeed, the finite set defining $M_i(u)$ consists of the floor $51/100$ and
+real parts of actual zeros, all at most $\beta_*$.  This uses only the
+definition of the supremum, not its attainment.  The boundary case
+$\delta=5/6$ remains part of the argument.
+
+For the second application of Proposition~\ref{lem:continuation-criterion},
+write throughout Part~II
+\begin{equation}\label{eq:part-II-mellin-target}
+ C(s)=C_{\mathrm{II}}(s):=s-\frac{11}{16},\qquad
+ C(7/8)=\frac3{16}.
+\end{equation}
+Our task is to construct a normalized probe $J_{\mathrm{II},\eta}$ from
+the finite expression below.  It is distinct from the balanced probe
+$J_{\mathrm I,\eta}$.  Its low-side target is
+$|J_{\mathrm{II},\eta}(Z)|\ll_\eta Z^{3/16+\omega}$ for a common
+$0<\omega<\Delta$; its high side must satisfy the signal estimate in
+Equation~\eqref{eq:high-probe-contract} with this $C$.  The nonzero scalar
+normalization will be specified after the principal term is evaluated.
+
+For each primitive target $\eta$, use an admissible fixed instance of the
+data $T,S,b_*,\xi,\tau,\Xi,W_0,W_1$ from Section~\ref{sec:probe}.  The
+permitted choice of $P_0$ will be made in the parameter order below.  These
+data may differ from those used in Part~I, but within this application they
+are independent of $Z$ and are the same in the physical probe and its high
+representation.
+
+We first define the two-term modification on the original probe, before
+moving any contour.  The subsequent low and high estimates will concern
+this same finite expression.
+
+Use the fixed geometry
+\begin{equation}
+ \begin{gathered}
+ b=\frac18,\qquad h=\frac{13}{16},\qquad \ell=\frac16,\\
+ l_x=1+\ell-h=\frac{17}{48},\qquad
+ l_y=l_x+b=\frac{23}{48},\\
+ X=Z^{l_x},\qquad Y=Z^{l_y},\qquad
+ M=l_x+l_y=\frac56,\qquad M+\ell=1.
+ \end{gathered}
+ \label{old-eq:5.1}
+\end{equation}
+Fix positive slot lengths $\ell_1,\ldots,\ell_K$ of total length
+$\ell$, and put $P_i=Z^{\ell_i}$.  Each physical slot has a
+nonnegative, nonzero smooth annular weight $W_i(q_p/P_i)$.  Its allowed
+prime set is
+\[
+ \mathcal P_i(Z)=\{p\text{ prime}:p\notin S,\ p\in1_T,
+                         \ q_p/P_i\in\operatorname{supp}W_i\}.
+\]
+The underlying window sets
+$\{p\text{ prime}:q_p/P_i\in\operatorname{supp}W_i\}$ for distinct slots
+are required to be disjoint before imposing the ray and $S$ restrictions.
+In particular, the sets $\mathcal P_i(Z)$ are disjoint, and every tuple in
+$\prod_i\mathcal P_i(Z)$ consists of distinct primes.
+The number and lengths of the slots will be chosen later, but they are
+fixed independently of $Z$.  A sum over $p\in1_T$ for slot $i$ below
+always retains this same exclusion and annular support.
+
+For a squarefree product $D$ of slot primes, let
+$I_{\eta;D}(X,Y,Z)$ denote Equation~\eqref{eq:general-probe} with
+the indicator $1_{D\mid cn^3}$ inserted in its completed row.
+Thus $I_{\eta;1}=I_\eta$.  For a tuple
+$(p_1,\ldots,p_K)\in\prod_i\mathcal P_i(Z)$ and
+$J\subseteq\{1,\ldots,K\}$ write $p_J=\prod_{i\in J}p_i$, with
+$p_\varnothing=1$.  The subset $J$ indexes the rescaled slots and $J^c$
+the marked slots; this subset notation is distinct from the normalized
+probe $J_{\mathrm{II},\eta}$.  Define the modified probe by the finite identity
+\begin{equation}\label{eq:compensated-probe-definition}
+\begin{split}
+ I_{\eta,\mathrm{modified}}(Z)
+ =\sum_{(p_i)\in\prod_i\mathcal P_i(Z)}\prod_{i=1}^K W_i(q_{p_i}/P_i)
+ \sum_{J\subseteq\{1,\ldots,K\}}&(-1)^{|J|}q_{p_J}^{-3/2}
+          \overline{\eta(p_{J^c})}\\
+ &\cdot I_{\eta;p_{J^c}}
+       (X/q_{p_J},Y/q_{p_J},Zq_{p_{J^c}}).
+\end{split}
+\end{equation}
+Equivalently, at each prime $p$ the operation is the marked term
+$\overline{\eta(p)}I_{\eta;p}(X,Y,Zq_p)$ minus the rescaled term
+$q_p^{-3/2}I_\eta(X/q_p,Y/q_p,Z)$.  Formula
+\eqref{eq:compensated-probe-definition} specifies their composition:
+every slot window stays at its original scale $P_i$, including when
+another slot changes the completed scale.  On $1_T$ one has
+$\theta(p)=1$ for every $\theta\in\widehat T$.  Thus marking commutes
+with the Fourier decomposition of $\overline G$ and preserves the
+same excluded set and zero masks in every summand.
+The subtraction is designed to cancel the scalar prime contribution on
+the high side, leaving the sextic-character prime factor used by the moment
+estimates. Section~\ref{sec:local-compensation} proves the exact identity
+and bounds the remaining local errors.
+
+\section{Coefficient conventions and finite correlations}
+\label{sec:additional-arithmetic}
+

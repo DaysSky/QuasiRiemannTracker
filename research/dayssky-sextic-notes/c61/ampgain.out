@@ -1,0 +1,6 @@
+m=0.4: no classes cap=(0.047407407407263236, np.float64(0.625)), with amplitude classes cap=(0.05006157807056298, np.float64(0.55))  old6k=0.0444
+m=0.417: no classes cap=(0.03843638664166066, np.float64(0.665)), with amplitude classes cap=(0.03959619014913189, np.float64(0.595))  old6k=0.0369
+m=0.43: no classes cap=(0.03193399628071348, np.float64(0.685)), with amplitude classes cap=(0.03248908619261784, np.float64(0.65))  old6k=0.0311
+Theorem 2.2       theta ~ 0.8748997
+amplitude classes theta ~ 0.8748997
+old 6kappa only  theta ~ 0.8749198
